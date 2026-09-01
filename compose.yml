@@ -24,10 +24,7 @@ services:
     restart: unless-stopped
 
   web:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: glitchtip-kr:6
+    image: ghcr.io/dragonjuno/glitchtip-kr:latest
     depends_on:
       - postgres
       - valkey

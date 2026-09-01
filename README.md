@@ -38,10 +38,10 @@ nano .env
 
 `.env`에서 `POSTGRES_PASSWORD`, `SECRET_KEY`, `GLITCHTIP_DOMAIN`, `DEFAULT_FROM_EMAIL`을 운영 환경에 맞게 변경하세요. `SECRET_KEY`는 `openssl rand -hex 32`로 생성할 수 있습니다.
 
-저장소에 포함된 한국어 프론트엔드 빌드 결과를 Docker 이미지에 포함합니다. 서버에서는 Angular/npm을 다시 빌드하지 않습니다.
+GitHub Actions가 저장소에 포함된 한국어 프론트엔드 빌드 결과를 Docker 이미지에 포함해 GHCR에 게시합니다. 서버에서는 Docker 이미지만 내려받고 빌드하지 않습니다.
 
 ```bash
-docker compose build
+docker compose pull
 docker compose up -d
 docker compose logs -f web
 ```
@@ -53,7 +53,7 @@ docker compose logs -f web
 ```bash
 cd /opt/glitchtip-kr
 git pull
-docker compose build
+docker compose pull
 docker compose up -d
 ```
 
