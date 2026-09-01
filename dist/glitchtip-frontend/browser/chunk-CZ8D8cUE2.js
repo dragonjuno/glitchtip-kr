@@ -1,0 +1,3 @@
+import{D as bc,r as Cc}from"./chunk-DzW0_8HQ.js";var i={email_password_mismatch:{password:$localize`Unable to log in with provided credentials.`},enter_current_password:{current_password:$localize`Your current password is incorrect.`}};function u(e){let{code:r,param:o,message:s}=e,t=i[r];return o&&t?.[o]||s}function p(e){return e.map(r=>u(r))}function c(e){return e.reduce((r,o)=>{let{param:s}=o,t=u(o);return s&&(r[s]||(r[s]=[]),r[s].push(t)),r},{})}function l(e,r){return e?.status===400?e.errors:r.status===500?Cc:bc}export{l as n,p as r,c as t};
+//# debugId=c1a63817-0f78-50b0-9461-42a6fa288a1b
+//# sourceMappingURL=chunk-CZ8D8cUE2.js.map

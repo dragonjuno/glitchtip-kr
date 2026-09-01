@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/issues/issue-detail/event-detail/entry-exception/frame-title/frame-title.component.scss"],
+  "sourcesContent": [".help-button {\n  margin-right: 4px;\n}\n"],
+  "mappings": "AAAA,CAAA,YACE,aAAA",
+  "names": []
+}

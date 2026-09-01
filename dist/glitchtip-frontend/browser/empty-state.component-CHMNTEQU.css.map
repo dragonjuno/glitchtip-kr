@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/empty-state/empty-state.component.ts"],
+  "sourcesContent": ["\n    .empty-state {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      text-align: center;\n      gap: var(--gt-space-2, 8px);\n      padding: var(--gt-space-7, 48px) var(--gt-space-4, 16px);\n      color: var(--mat-sys-on-surface-variant);\n    }\n    .empty-state__icon {\n      width: 48px;\n      height: 48px;\n      font-size: 48px;\n      color: var(--mat-sys-outline);\n    }\n    .empty-state__title {\n      margin: 0;\n      font: var(--mat-sys-title-medium);\n      color: var(--mat-sys-on-surface);\n    }\n    .empty-state__message {\n      margin: 0;\n      max-width: 44ch;\n      font: var(--mat-sys-body-medium);\n    }\n    .empty-state__action {\n      margin-top: var(--gt-space-2, 8px);\n    }\n    .empty-state__action:empty {\n      display: none;\n    }\n  "],
+  "mappings": "AACI,CAAA,YACE,QAAA,KACA,eAAA,OACA,YAAA,OACA,WAAA,OACA,IAAA,IAAA,YAAA,EAAA,KACA,QAAA,IAAA,YAAA,EAAA,MAAA,IAAA,YAAA,EAAA,MACA,MAAA,IAAA,8BAEF,CAAA,kBACE,MAAA,KACA,OAAA,KACA,UAAA,KACA,MAAA,IAAA,mBAEF,CAAA,mBAfA,OAgBE,EACA,KAAA,IAAA,wBACA,MAAA,IAAA,sBAEF,CAAA,qBApBA,OAqBE,EACA,UAAA,KACA,KAAA,IAAA,uBAEF,CAAA,oBACE,WAAA,IAAA,YAAA,EAAA,KAEF,CAHA,mBAGA,OACE,QAAA",
+  "names": []
+}

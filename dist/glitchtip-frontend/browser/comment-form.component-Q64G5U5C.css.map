@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/issues/comments/comment-form/comment-form.component.scss"],
+  "sourcesContent": ["form {\n  display: flex;\n  flex-direction: column;\n\n  mat-form-field {\n    margin-bottom: 10px;\n  }\n\n  textarea {\n    height: 250px;\n  }\n}\n\n.submit-button {\n  margin-right: 15px;\n}\n\n.cancel-button {\n  max-width: 60px;\n}\n"],
+  "mappings": "AAAA,KACE,QAAA,KACA,eAAA,OAEA,KAAA,eACE,cAAA,KAGF,KAAA,SACE,OAAA,MAIJ,CAAA,cACE,aAAA,KAGF,CAAA,cACE,UAAA",
+  "names": []
+}

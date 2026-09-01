@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/releases/releases.scss"],
+  "sourcesContent": ["@use \"variables\" as vars;\n\n$iconWidth: 56px;\n\ntable {\n  width: 100%;\n  margin-bottom: 40px;\n\n  // &.fixedLayout {\n  //   table-layout: fixed;\n  // }\n}\n\n.mat-column-version, .mat-column-header-spacing {\n  width: 90%;\n  @media screen and (max-width: vars.$large - 1) {\n    width: 500px;\n  }\n  @media screen and (max-width: vars.$medium - 1) {\n    width: 400px;\n  }\n  @media screen and (max-width: vars.$tablet - 1) {\n    width: 200px;\n  }\n}\n\n.mat-column-created,\n.mat-column-pagination {\n  width: 10%;\n}\n\n.version {\n  padding-top: 8px;\n  padding-bottom: 8px;\n  padding-right: 10px;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n  overflow: hidden;\n  max-width: fit-content;\n}\n"],
+  "mappings": "AAIA,MACE,MAAA,KACA,cAAA,KAOF,CAAA,mBAAA,CAAA,0BACE,MAAA,IACA,OAAA,YAAA,UAAA,QAFF,CAAA,mBAAA,CAAA,0BAGI,MAAA,OAEF,OAAA,YAAA,UAAA,OALF,CAAA,mBAAA,CAAA,0BAMI,MAAA,OAEF,OAAA,YAAA,UAAA,OARF,CAAA,mBAAA,CAAA,0BASI,MAAA,OAIJ,CAAA,mBAAA,CAAA,sBAEE,MAAA,IAGF,CAAA,QACE,YAAA,IACA,eAAA,IACA,cAAA,KACA,YAAA,OACA,cAAA,SACA,SAAA,OACA,UAAA",
+  "names": []
+}

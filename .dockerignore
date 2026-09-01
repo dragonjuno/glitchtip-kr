@@ -1,0 +1,11 @@
+.git
+.git/**
+node_modules
+.angular
+coverage
+cypress/screenshots
+cypress/videos
+*.log
+.env
+.env.*
+!.env.example

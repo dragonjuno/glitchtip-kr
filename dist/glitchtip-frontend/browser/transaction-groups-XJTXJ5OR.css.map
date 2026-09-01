@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/performance/transaction-groups/transaction-groups.scss"],
+  "sourcesContent": ["@use \"variables\" as vars;\n\ntable {\n  width: 100%;\n\n  &.fixedLayout {\n    table-layout: fixed;\n  }\n}\n\n.mat-column-name-and-project, .mat-column-header-spacing {\n  width: 90%;\n  padding-left: 24px;\n}\n\n.mat-column-avgDuration, .mat-column-pagination {\n  width: 10%;\n  padding-right: 24px;\n}\n\n.name-and-project {\n  width: 500px;\n  padding-top: 8px;\n  padding-bottom: 8px;\n\n  @media screen and (max-width: vars.$large - 1) {\n    width: 300px;\n  }\n  @media screen and (max-width: vars.$medium - 1) {\n    width: 200px;\n  }\n  @media screen and (max-width: vars.$tablet - 1) {\n    width: 160px;\n  }\n\n  .group-title {\n    white-space: nowrap;\n    text-overflow: ellipsis;\n    overflow: hidden;\n    max-width: fit-content;\n  }\n\n  div {\n    width: inherit;\n\n    .caption-text {\n      color: inherit;\n    }\n  }\n}\n\n.avg-duration-cell {\n  width: 140px;\n}\n"],
+  "mappings": "AAEA,MACE,MAAA,KAEA,KAAA,CAAA,YACE,aAAA,MAIJ,CAAA,4BAAA,CAAA,0BACE,MAAA,IACA,aAAA,KAGF,CAAA,uBAAA,CAAA,sBACE,MAAA,IACA,cAAA,KAGF,CAAA,iBACE,MAAA,MACA,YAAA,IACA,eAAA,IAEA,OAAA,YAAA,UAAA,QALF,CAAA,iBAMI,MAAA,OAEF,OAAA,YAAA,UAAA,OARF,CAAA,iBASI,MAAA,OAEF,OAAA,YAAA,UAAA,OAXF,CAAA,iBAYI,MAAA,OAGF,CAfF,iBAeE,CAAA,YACE,YAAA,OACA,cAAA,SACA,SAAA,OACA,UAAA,YAGF,CAtBF,iBAsBE,IACE,MAAA,QAEA,CAzBJ,iBAyBI,IAAA,CAAA,aACE,MAAA,QAKN,CAAA,kBACE,MAAA",
+  "names": []
+}

@@ -1,0 +1,45 @@
+x-environment: &default-environment
+  DATABASE_URL: postgres://postgres:${POSTGRES_PASSWORD}@postgres:5432/postgres
+  VALKEY_URL: redis://valkey:6379
+  SECRET_KEY: ${SECRET_KEY}
+  EMAIL_URL: ${EMAIL_URL:-consolemail://}
+  GLITCHTIP_DOMAIN: ${GLITCHTIP_DOMAIN}
+  DEFAULT_FROM_EMAIL: ${DEFAULT_FROM_EMAIL}
+  ENABLE_ADMIN: ${ENABLE_ADMIN:-False}
+  ENABLE_OPENAPI: ${ENABLE_OPENAPI:-False}
+
+services:
+  postgres:
+    image: postgres:18
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: postgres
+    restart: unless-stopped
+    volumes:
+      - pg-data:/var/lib/postgresql
+
+  valkey:
+    image: valkey/valkey:9
+    restart: unless-stopped
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: glitchtip-kr:6
+    depends_on:
+      - postgres
+      - valkey
+    ports:
+      - "${PORT:-8000}:8000"
+    environment:
+      <<: *default-environment
+      SERVER_ROLE: all_in_one
+    restart: unless-stopped
+    volumes:
+      - uploads:/code/uploads
+
+volumes:
+  pg-data:
+  uploads:

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/mobile-nav-toolbar/mobile-nav-toolbar.component.scss"],
+  "sourcesContent": ["@use \"@angular/material\" as mat;\n@use \"variables\" as vars;\n\nmat-toolbar {\n  border-bottom: 1px solid var(--mat-sys-outline-variant);\n  height: 44px;\n  display: none;\n  cursor: pointer;\n\n  @media (max-width: vars.$tablet - 1) {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n  }\n}\n\n.active-org {\n  max-width: 100%;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  margin-left: 5px;\n}\n"],
+  "mappings": "AAGA,YACE,cAAA,IAAA,MAAA,IAAA,2BACA,OAAA,KACA,QAAA,KACA,OAAA,QAEA,OAAA,UAAA,OANF,YAOI,QAAA,KACA,eAAA,IACA,YAAA,QAIJ,CAAA,WACE,UAAA,KACA,SAAA,OACA,cAAA,SACA,YAAA",
+  "names": []
+}

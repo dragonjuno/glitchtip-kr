@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/settings/teams/new-team/new-team.scss"],
+  "sourcesContent": [".error {\n  height: 40px;\n  display: flex;\n  align-items: center;\n}\n\n.description {\n  margin-bottom: 0;\n}\n\nmat-form-field {\n  margin-bottom: 16px;\n}\n\nmat-form-field {\n  width: 100%;\n}\nmat-dialog-actions {\n  padding: 0 24px 24px 24px;\n  display: flex;\n  justify-content: space-between;\n}\n"],
+  "mappings": "AAAA,CAAA,MACE,OAAA,KACA,QAAA,KACA,YAAA,OAGF,CAAA,YACE,cAAA,EAGF,eACE,cAAA,KAGF,eACE,MAAA,KAEF,mBAjBA,QAkBE,EAAA,KAAA,KACA,QAAA,KACA,gBAAA",
+  "names": []
+}

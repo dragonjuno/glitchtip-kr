@@ -1,0 +1,91 @@
+@use "@angular/material" as mat;
+@use "variables" as vars;
+
+.exception {
+  margin-bottom: 16px;
+
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+
+    @media screen and (max-width: vars.$small - 1) {
+      flex-direction: column;
+    }
+  }
+  .text-wrapper {
+    display: flex;
+    align-items: center;
+
+    h3 {
+      margin-bottom: 0px;
+    }
+  }
+
+  .spacer {
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+  }
+
+  button {
+    margin-top: 18px;
+  }
+
+  .subtitle {
+    margin-bottom: 24px;
+  }
+
+  .yes {
+    border: 2px solid green;
+  }
+
+  .no {
+    border: 2px solid red;
+  }
+
+  .raw {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .full {
+    h2 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  mat-chip-set {
+    display: block;
+    margin-bottom: 24px;
+  }
+
+  mat-accordion::ng-deep .mat-expansion-panel-body {
+    padding-top: 16px;
+  }
+
+  mat-expansion-panel:not(:last-child) mat-expansion-panel-header {
+    margin-bottom: -1px;
+  }
+
+  mat-expansion-panel-header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid mat.m2-get-color-from-palette(mat.$m2-gray-palette, 300);
+
+    gt-frame-title {
+      padding-right: 16px;
+    }
+  }
+
+  .disabled-panel {
+    color: var(--mat-expansion-container-text-color);
+  }
+}
+
+// TODO: Adjust color for focus interactions
+.highlighted {
+  background-color: var(--mat-sys-surface-container);
+}

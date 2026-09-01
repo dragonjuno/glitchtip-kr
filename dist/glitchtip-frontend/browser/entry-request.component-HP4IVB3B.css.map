@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/issues/issue-detail/event-detail/entry-request/entry-request.component.scss"],
+  "sourcesContent": [".location {\n  display: flex;\n  align-items: center;\n  margin-bottom: 8px;\n  margin-top: 8px;\n  padding-top: 24px;\n}\n\n.method {\n  margin-right: 8px;\n}\n\n.domain {\n  margin-left: 24px;\n}\n\n.data {\n  margin-top: 40px;\n}\n\nh3 {\n  padding-top: 8px;\n}\n\n.title-bar {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-top: 2rem;\n}\n\n.json-container {\n  position: relative;\n}\n\n.copy-button {\n  position: absolute;\n  top: 8px;\n  right: 8px;\n  z-index: 10;\n  background-color: transparent;\n  transition: background-color 0.2s ease;\n\n  &:hover {\n    background-color: rgba(0, 0, 0, 0.25);\n  }\n}"],
+  "mappings": "AAAA,CAAA,SACE,QAAA,KACA,YAAA,OACA,cAAA,IACA,WAAA,IACA,YAAA,KAGF,CAAA,OACE,aAAA,IAGF,CAAA,OACE,YAAA,KAGF,CAAA,KACE,WAAA,KAGF,GACE,YAAA,IAGF,CAAA,UACE,QAAA,KACA,gBAAA,cACA,YAAA,OACA,WAAA,KAGF,CAAA,eACE,SAAA,SAGF,CAAA,YACE,SAAA,SACA,IAAA,IACA,MAAA,IACA,QAAA,GACA,iBAAA,YACA,WAAA,iBAAA,IAAA,KAEA,CARF,WAQE,OACE,iBAAA",
+  "names": []
+}

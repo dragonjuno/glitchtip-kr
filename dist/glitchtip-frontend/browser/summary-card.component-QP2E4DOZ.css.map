@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/settings/subscription/subscription-charts/summary-card/summary-card.component.scss"],
+  "sourcesContent": ["mat-card {\n  text-align: center;\n}\n\n.summary-title {\n  font: var(--mat-sys-label-large);\n  color: var(--mat-sys-on-surface-variant);\n  margin-bottom: 8px;\n}\n\n.summary-value {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 2.5rem;\n  font-weight: 500;\n  color: var(--mat-sys-primary);\n  line-height: 1.2;\n}\n\n.summary-subtitle {\n  font: var(--mat-sys-body-small);\n  color: var(--mat-sys-on-surface-variant);\n  margin-top: 4px;\n  margin-bottom: 12px;\n}\n\n.over-limit-text {\n  color: var(--mat-sys-error);\n}\n\nmat-progress-bar {\n  border-radius: 4px;\n}\n"],
+  "mappings": "AAAA,SACE,WAAA,OAGF,CAAA,cACE,KAAA,IAAA,uBACA,MAAA,IAAA,8BACA,cAAA,IAGF,CAAA,cACE,QAAA,KACA,gBAAA,OACA,YAAA,OACA,UAAA,OACA,YAAA,IACA,MAAA,IAAA,mBACA,YAAA,IAGF,CAAA,iBACE,KAAA,IAAA,sBACA,MAAA,IAAA,8BACA,WAAA,IACA,cAAA,KAGF,CAAA,gBACE,MAAA,IAAA,iBAGF,iBA/BA,cAgCE",
+  "names": []
+}

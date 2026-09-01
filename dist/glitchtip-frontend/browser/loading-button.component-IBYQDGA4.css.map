@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/loading-button/loading-button.component.scss"],
+  "sourcesContent": ["button {\n  white-space: nowrap;\n}\n"],
+  "mappings": "AAAA,OACE,YAAA",
+  "names": []
+}

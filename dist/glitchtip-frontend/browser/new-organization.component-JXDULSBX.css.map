@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/new-organization/new-organization.component.scss"],
+  "sourcesContent": ["@use \"variables\" as vars;\n\nmat-form-field,\nbutton {\n  width: 100%;\n}\n\nmat-card {\n  width: 50%;\n  margin-left: auto;\n  margin-right: auto;\n\n  @media screen and (min-width: vars.$tablet) {\n    min-width: 480px;\n  }\n\n  @media screen and (max-width: vars.$tablet - 1) {\n    width: 100%;\n    max-width: 480px;\n  }\n}\n\nform {\n  text-align: center;\n  margin-left: auto;\n  margin-right: auto;\n}\n\nbutton {\n  margin-top: 10px;\n}\n"],
+  "mappings": "AAEA,eAAA,OAEE,MAAA,KAGF,SACE,MAAA,IACA,YAAA,KACA,aAAA,KAEA,OAAA,YAAA,UAAA,OALF,SAMI,UAAA,OAGF,OAAA,YAAA,UAAA,OATF,SAUI,MAAA,KACA,UAAA,OAIJ,KACE,WAAA,OACA,YAAA,KACA,aAAA,KAGF,OACE,WAAA",
+  "names": []
+}

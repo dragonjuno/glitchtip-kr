@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/issues/issues-page/charts/issue-chart.scss"],
+  "sourcesContent": [".chart-container {\n  width: 300px;\n  height: 40px;\n}\n\n.tooltip {\n  font: var(--mat-sys-label-medium);\n  padding: 4px;\n}\n"],
+  "mappings": "AAAA,CAAA,gBACE,MAAA,MACA,OAAA,KAGF,CAAA,QACE,KAAA,IAAA,wBANF,QAOE",
+  "names": []
+}

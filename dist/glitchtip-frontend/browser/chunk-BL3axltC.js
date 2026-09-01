@@ -1,0 +1,3 @@
+import{F as Gw}from"./chunk-CydAPAPE.js";import{j as gc}from"./chunk-DzW0_8HQ.js";var m=(()=>{class e{transform(r,i=!1){try{let t=typeof r==`string`?gc(r):r;return t>999?`${i?Math.round(t/1e3):(t/1e3).toFixed(2)} seconds`:`${+t.toFixed(2)}ms`}catch{return console.warn(`Provided string was not a valid timedelta`),``}}static{this.ɵfac=function(i){return new(i||e)}}static{this.ɵpipe=Gw({name:`humanizeDuration`,type:e,pure:!0})}}return e})();export{m as t};
+//# debugId=82b43a0e-e773-54b3-9b5c-e726f7cfb163
+//# sourceMappingURL=chunk-BL3axltC.js.map

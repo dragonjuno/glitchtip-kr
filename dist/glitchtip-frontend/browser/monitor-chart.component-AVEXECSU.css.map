@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/uptime/monitor-chart/monitor-chart.component.scss"],
+  "sourcesContent": ["div {\n  display: flex;\n  flex-direction: row;\n  height: 25px;\n  flex-flow: row-reverse wrap;\n  justify-content: flex-end;\n  overflow: hidden;\n\n  div {\n    border-radius: 4px;\n    min-height: 14px;\n    min-width: 10px;\n    margin-right: 7px;\n  }\n\n  .up-check {\n    background-color: var(--success-color);\n  }\n\n  .down-check {\n    background-color: var(--mat-sys-error);\n  }\n\n  .no-check {\n    background-color: var(--mat-sys-surface-variant);\n    opacity: 0.6;\n  }\n}\n"],
+  "mappings": "AAAA,IACE,QAAA,KACA,eAAA,IACA,OAAA,KACA,UAAA,YAAA,KACA,gBAAA,SACA,SAAA,OAEA,IAAA,IARF,cASI,IACA,WAAA,KACA,UAAA,KACA,aAAA,IAGF,IAAA,CAAA,SACE,iBAAA,IAAA,iBAGF,IAAA,CAAA,WACE,iBAAA,IAAA,iBAGF,IAAA,CAAA,SACE,iBAAA,IAAA,2BACA,QAAA",
+  "names": []
+}

@@ -1,0 +1,3 @@
+import{Mr as oe,Pt as Tt}from"./chunk-CydAPAPE.js";import{g as Ti}from"./chunk-C5jr27J8.js";var l=(()=>{class e{constructor(){this.#e=Ti.fetchAll(()=>({url:`/api/0/projects/`})),this.projects=Tt(()=>this.#e.value()||[]),this.loading=Tt(()=>this.#e.isLoading()),this.initialLoadComplete=Tt(()=>this.#e.hasValue()||!this.loading())}#e;retrieveProjects(){this.#e.reload()}static{this.ɵfac=function(r){return new(r||e)}}static{this.ɵprov=oe({token:e,factory:e.ɵfac,providedIn:`root`})}}return e})();export{l as t};
+//# debugId=b1c014c1-2a53-5264-a6fc-308c4fee162b
+//# sourceMappingURL=chunk-DWIMt53S2.js.map

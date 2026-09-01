@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/profile/account/account.component.scss"],
+  "sourcesContent": ["@use \"variables\" as vars;\n\n:host {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 16px;\n\n  @media (max-width: vars.$medium - 1) {\n    grid-template-columns: 1fr;\n  }\n}\n\n.full-span {\n  grid-column: 1 / -1;\n}\n\n.remove-content {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n\n  @media (max-width: (vars.$large - 1)) {\n    flex-wrap: wrap;\n    align-items: flex-start;\n  }\n\n  p {\n    padding-right: 16px;\n  }\n}\n"],
+  "mappings": "AAEA,MACE,QAAA,KACA,sBAAA,IAAA,IACA,IAAA,KAEA,OAAA,UAAA,OALF,MAMI,sBAAA,KAIJ,CAAA,UACE,YAAA,CAAA,CAAA,GAGF,CAAA,eACE,QAAA,KACA,gBAAA,cACA,YAAA,OAEA,OAAA,UAAA,QALF,CAAA,eAMI,UAAA,KACA,YAAA,YAGF,CAVF,eAUE,EACE,cAAA",
+  "names": []
+}

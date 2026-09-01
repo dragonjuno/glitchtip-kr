@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/uptime/monitor-detail/monitor-detail.component.scss"],
+  "sourcesContent": ["mat-card {\n  margin-top: 20px;\n  margin-bottom: 20px;\n\n  mat-card-content {\n    padding-top: 16px;\n\n    div {\n      display: flex;\n      flex-direction: column;\n      width: 100%;\n\n      button {\n        margin-top: 10px;\n        width: fit-content;\n      }\n    }\n  }\n}\n\n.interval {\n  margin: 5px 0;\n}\n\n.reduced-padding {\n  padding-top: 4px !important;\n}\n\nmat-progress-spinner {\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.url-display {\n  a {\n    display: inline-block;\n    text-overflow: wrap;\n    overflow-wrap: break-word;\n  }\n}\n\n.top-bar-actions {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n}\n"],
+  "mappings": "AAAA,SACE,WAAA,KACA,cAAA,KAEA,SAAA,iBACE,YAAA,KAEA,SAAA,iBAAA,IACE,QAAA,KACA,eAAA,OACA,MAAA,KAEA,SAAA,iBAAA,IAAA,OACE,WAAA,KACA,MAAA,YAMR,CAAA,SApBA,OAqBE,IAAA,EAGF,CAAA,gBACE,YAAA,cAGF,qBACE,YAAA,KACA,aAAA,KAIA,CAAA,YAAA,EACE,QAAA,aACA,cAAA,KACA,cAAA,WAIJ,CAAA,gBACE,QAAA,KACA,YAAA,OACA,IAAA",
+  "names": []
+}

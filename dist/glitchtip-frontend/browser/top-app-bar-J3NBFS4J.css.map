@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/top-app-bar/top-app-bar.scss", "src/assets/styles/_variables.scss"],
+  "sourcesContent": ["@use \"src/assets/styles/_variables.scss\" as vars;\n\n.top-app-bar {\n  display: flex;\n  height: vars.$top-app-bar-height;\n  align-items: center;\n  border-bottom: 1px solid var(--mat-sys-outline-variant);\n}\n\n.left-section,\n.right-section {\n  display: flex;\n  align-items: center;\n  padding: 0 24px;\n  height: 100%;\n}\n\n.left-section {\n  flex: 1;\n}\n\n.right-section:has(*) {\n  border-left: 1px solid var(--mat-sys-outline-variant);\n}\n", "$font-path: \"../fonts\";\n$font-sans-serif: \"Plex Sans\";\n$font-mono: \"Plex Mono\";\n\n$shape-radius: 4px;\n\n$side-nav-width: 240px;\n$top-app-bar-height: 65px;\n$mobile-nav-height: 44px;\n\n// These are the min width breakpoints used in the Angular CDK\n$Xsmall: 0px;\n$small: 600px;\n$medium: 960px;\n$large: 1280px;\n$Xlarge: 1920px;\n\n// Come up with a better name, I dare you\n$tablet: 768px;\n"],
+  "mappings": "AAEA,CAAA,YACE,QAAA,KACA,OCGmB,KDFnB,YAAA,OACA,cAAA,IAAA,MAAA,IAAA,2BAGF,CAAA,aAAA,CAAA,cAEE,QAAA,KACA,YAAA,OAVF,QAWE,EAAA,KACA,OAAA,KAGF,CARA,aASE,KAAA,EAGF,CAZA,aAYA,KAAA,GACE,YAAA,IAAA,MAAA,IAAA",
+  "names": []
+}

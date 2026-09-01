@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/login/login.scss"],
+  "sourcesContent": [".or {\n  margin-top: 16px;\n  margin-bottom: 16px;\n  text-align: center;\n}\n\n.margin {\n  margin-bottom: 8px;\n}\n\n.logo-container {\n  text-align: center;\n  margin-bottom: 20px;\n\n  img {\n    width: 150px;\n  }\n}\n"],
+  "mappings": "AAAA,CAAA,GACE,WAAA,KACA,cAAA,KACA,WAAA,OAGF,CAAA,OACE,cAAA,IAGF,CAAA,eACE,WAAA,OACA,cAAA,KAEA,CAJF,eAIE,IACE,MAAA",
+  "names": []
+}

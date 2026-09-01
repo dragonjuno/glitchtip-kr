@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/list-elements/timerange-select/time-range-select.scss"],
+  "sourcesContent": ["@use \"variables\" as vars;\n\n.custom-range-trigger {\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.time-range-select-formfield {\n  width: 200px;\n\n  &.wide {\n    // TODO: Find a cleaner way to manage the variable sizes here\n    @media screen and (min-width: vars.$small) {\n      width: 325px;\n      @media screen and (max-width: vars.$large - 199) {\n        width: 200px;\n      }\n      @media screen and (max-width: vars.$tablet - 1) {\n        max-width: 250px;\n      }\n      @media screen and (max-width: vars.$small - 1) {\n        width: 100%;\n      }\n    }\n  }\n\n  @media screen and (max-width: vars.$small - 1) {\n    width: 100%;\n  }\n}\n"],
+  "mappings": "AAEA,CAAA,qBACE,MAAA,KACA,QAAA,KACA,gBAAA,cACA,YAAA,OAGF,CAAA,4BACE,MAAA,MAIE,OAAA,YAAA,UAAA,OAFF,CAHF,2BAGE,CAAA,KAGI,MAAA,OACA,OAAA,YAAA,UAAA,WAAA,UAAA,QAJJ,CAHF,2BAGE,CAAA,KAKM,MAAA,OAEF,OAAA,YAAA,UAAA,WAAA,UAAA,OAPJ,CAHF,2BAGE,CAAA,KAQM,UAAA,OAEF,OAAA,YAAA,UAAA,WAAA,UAAA,OAVJ,CAHF,2BAGE,CAAA,KAWM,MAAA,MAKN,OAAA,YAAA,UAAA,OAnBF,CAAA,4BAoBI,MAAA",
+  "names": []
+}

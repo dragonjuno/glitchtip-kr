@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/organization/over-limit-snackbar/over-limit-snackbar.scss"],
+  "sourcesContent": [":host {\n  display: flex;\n}\n\n.subscription-link {\n  color: var(--mat-sys-inverse-primary);\n}\n\n.dismiss-button {\n  color: var(--mat-sys-inverse-primary);\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,KAGF,CAAA,kBAIA,CAAA,eAHE,MAAA,IAAA",
+  "names": []
+}

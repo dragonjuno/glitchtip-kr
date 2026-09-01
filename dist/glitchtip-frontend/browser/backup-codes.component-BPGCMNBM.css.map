@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/profile/multi-factor-auth/totp/backup-codes/backup-codes.component.scss"],
+  "sourcesContent": ["mat-form-field {\n  margin-right: 10px;\n}\n\n.button-group {\n  button:first-child {\n    margin-right: 10px;\n  }\n}\n\n:host ::ng-deep .body-text-strong {\n  margin-bottom: 0px;\n}\n\n:host ::ng-deep .mat-flat-button {\n  margin-top: 5px;\n  margin-bottom: 10px;\n  margin-right: 15px;\n}\n"],
+  "mappings": "AAAA,eACE,aAAA,KAIA,CAAA,aAAA,MAAA,aACE,aAAA,KAIJ,MAAA,UAAA,CAAA,iBACE,cAAA,EAGF,MAAA,UAAA,CAAA,gBACE,WAAA,IACA,cAAA,KACA,aAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/list-elements/project-multiselect/project-multiselect.scss"],
+  "sourcesContent": ["@use '@angular/material' as mat;\n@use \"variables\" as vars;\n\n:host {\n  width: 225px;\n\n  @media screen and (max-width: vars.$medium - 1) {\n    flex: 2;\n  }\n}\n\n.project-multiselect-formfield {\n  width: 100%;\n}\n"],
+  "mappings": "AAGA,MACE,MAAA,MAEA,OAAA,YAAA,UAAA,OAHF,MAII,KAAA,GAIJ,CAAA,8BACE,MAAA",
+  "names": []
+}

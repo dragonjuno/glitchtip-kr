@@ -1,0 +1,11 @@
+import{It as Ue,Mr as oe,Nn as ec,Pt as Tt,un as _}from"./chunk-CydAPAPE.js";import{E as ai}from"./chunk-DzW0_8HQ.js";import{g as Ti}from"./chunk-C5jr27J8.js";import{t as p}from"./chunk-B6NRyyqb.js";import{i as H}from"./chunk-DoYiX3zD.js";import{t as Qt}from"./chunk-lacMDu-q.js";var T=(()=>{class i{#e;#t;#i;#r;constructor(){this.#e=_(Qt),this.#t=_(p),this.#i=_(H),this.#r=Ue(void 0),this.inviteAcceptDetail=Ti(this.#r,e=>({url:`/api/0/accept/{org_user_id}/{token}/`,options:{params:{path:{org_user_id:e.memberID,token:e.token}}}})),this.acceptInfo=Tt(()=>this.inviteAcceptDetail.value()),this.orgSlug=Tt(()=>this.acceptInfo()?.orgUser.organization.slug),this.alreadyInOrg=Tt(()=>{let e=this.orgSlug(),t=this.#t.organizations();return e?!!t.find(r=>r.slug===e):!1}),ec(()=>{let e=this.inviteAcceptDetail.serverError();e?.detail.length&&(this.#e.open(e?.detail[0].msg),this.#i.navigate([`/`]))})}setParams(e,t){this.#r.set({memberID:e,token:t})}async acceptInvite(e,t){let{response:n,data:r,error:c}=await ai.POST(`/api/0/accept/{org_user_id}/{token}/`,{params:{path:{org_user_id:e,token:t}},body:{acceptInvite:!0}});r&&(this.#t.reload(),this.#e.open($localize`You have been added to ${r.orgUser.organization.name}.`),this.#i.navigate([`/`]));let v=n.status;if(c){let s=c.error;v===500?s.includes(`already exists`)?this.#e.open($localize`
+                There was an error, probably because you tried to join an organization
+                that you're already a part of.
+              `):this.#e.open($localize`
+                There was an error. Try again later.
+              `):s===`Not found.`?this.#e.open($localize`
+              This invitation link expired or is invalid. Please
+              issue a new invitation request.
+            `):this.#e.open(s.detail)}}static{this.ɵfac=function(t){return new(t||i)}}static{this.ɵprov=oe({token:i,factory:i.ɵfac,providedIn:`root`})}}return i})();export{T as t};
+//# debugId=fa66d680-d5b9-57ea-bff3-1f866b234bc8
+//# sourceMappingURL=chunk-CyrPVySp.js.map

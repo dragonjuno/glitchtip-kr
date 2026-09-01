@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/copy-input/copy-input.component.scss"],
+  "sourcesContent": [".dsn-copied {\n  color: var(--mat-sys-primary);\n}\n"],
+  "mappings": "AAAA,CAAA,WACE,MAAA,IAAA",
+  "names": []
+}

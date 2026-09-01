@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/list-elements/list-title/list-title.component.scss"],
+  "sourcesContent": [".section-header-text {\n  margin: 0px;\n}\n"],
+  "mappings": "AAAA,CAAA,oBAAA,OACE",
+  "names": []
+}

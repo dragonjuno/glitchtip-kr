@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/issues/issue-detail/issue-detail-tags/issue-detail-tags.component.scss"],
+  "sourcesContent": ["mat-card {\n  margin-top: 24px;\n  padding-bottom: 32px;\n}\n\n.key {\n  font-weight: 700;\n}\n\n.bars {\n  height: 16px;\n  display: flex;\n  justify-content: flex-start;\n}\n\n.top-value {\n  display: flex;\n  justify-content: space-between;\n\n  &:not(:first-child) {\n    margin-top: 24px;\n  }\n\n  &:not(:last-child) {\n    margin-bottom: 8px;\n  }\n\n  span:last-child {\n    max-width: 190px;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    text-align: right;\n  }\n}\n\n.bar {\n  background: var(--mat-sys-outline-variant);\n  box-shadow: none;\n  transition: all 0.5s;\n\n  &:not(:last-child) {\n    border-right: 1px solid var(--mat-sys-surface);\n  }\n\n  &:hover {\n    background: var(--mat-sys-primary);\n    box-shadow: var(--mat-sys-shadow-2);\n  }\n}\n"],
+  "mappings": "AAAA,SACE,WAAA,KACA,eAAA,KAGF,CAAA,IACE,YAAA,IAGF,CAAA,KACE,OAAA,KACA,QAAA,KACA,gBAAA,WAGF,CAAA,UACE,QAAA,KACA,gBAAA,cAEA,CAJF,SAIE,KAAA,cACE,WAAA,KAGF,CARF,SAQE,KAAA,aACE,cAAA,IAGF,CAZF,UAYE,IAAA,YACE,UAAA,MACA,SAAA,OACA,cAAA,SACA,WAAA,MAIJ,CAAA,IACE,WAAA,IAAA,2BACA,WAAA,KACA,WAAA,IAAA,IAEA,CALF,GAKE,KAAA,aACE,aAAA,IAAA,MAAA,IAAA,mBAGF,CATF,GASE,OACE,WAAA,IAAA,mBACA,WAAA,IAAA",
+  "names": []
+}

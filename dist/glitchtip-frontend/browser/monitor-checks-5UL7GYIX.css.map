@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/uptime/monitor-checks/monitor-checks.scss"],
+  "sourcesContent": ["@use \"variables\" as vars;\n\ntable {\n  width: 100%;\n}\n\n.mat-button-toggle-group {\n  height: 30px;\n  align-items: center;\n}\n\n\n.mat-column-status {\n  width: 15%\n}\n\n.mat-column-reason {\n  width: 20%;\n  padding-right: 10px;\n}\n\n.mat-column-responseTime {\n  width: 45%;\n  padding-right: 75px;\n  @media screen and (max-width: (vars.$small - 1)) {\n    display: none;\n  }\n}\n\n.mat-column-startCheck {\n  width: 20%;\n}\n\n.pagination-buttons-container {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n\n.status-color {\n  position: relative;\n\n  &:after {\n    content: \"\";\n    position: absolute;\n    left: 0;\n    top: 0;\n    bottom: 0;\n    width: 3px;\n  }\n\n  &--true:after {\n    background-color: var(--success-color);\n  }\n\n  &--false:after {\n    background-color: var(--mat-sys-error);\n  }\n}\n"],
+  "mappings": "AAEA,MACE,MAAA,KAGF,CAAA,wBACE,OAAA,KACA,YAAA,OAIF,CAAA,kBACE,MAAA,IAGF,CAAA,kBACE,MAAA,IACA,cAAA,KAGF,CAAA,wBACE,MAAA,IACA,cAAA,KACA,OAAA,YAAA,UAAA,OAHF,CAAA,wBAII,QAAA,MAIJ,CAAA,sBACE,MAAA,IAGF,CAAA,6BACE,MAAA,KACA,QAAA,KACA,YAAA,OACA,gBAAA,cAGF,CAAA,aACE,SAAA,SAEA,CAHF,YAGE,OACE,QAAA,GACA,SAAA,SACA,KAAA,EACA,IAAA,EACA,OAAA,EACA,MAAA,IAGF,CAAA,kBAAA,OACE,iBAAA,IAAA,iBAGF,CAAA,mBAAA,OACE,iBAAA,IAAA",
+  "names": []
+}

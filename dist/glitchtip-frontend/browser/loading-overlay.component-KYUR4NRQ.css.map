@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/loading-overlay/loading-overlay.component.ts"],
+  "sourcesContent": ["\n    .loading-overlay {\n      position: relative;\n    }\n    .loading-overlay__bar {\n      position: absolute;\n      top: 0;\n      left: 0;\n      right: 0;\n      height: 4px;\n      z-index: 2;\n      // The bar only conveys progress; never let its 4px strip swallow clicks\n      // on the sticky header sitting beneath it.\n      pointer-events: none;\n    }\n    .loading-overlay__content {\n      transition: opacity 150ms ease;\n    }\n    // Dim + block interaction on the stale content while it reloads.\n    .loading-overlay__content.is-reloading {\n      opacity: 0.5;\n      pointer-events: none;\n    }\n    :host(.full-height),\n    :host(.full-height) .loading-overlay,\n    :host(.full-height) .loading-overlay__content {\n      display: flex;\n      flex-direction: column;\n      flex: 1 1 auto;\n      min-height: 0;\n    }\n  "],
+  "mappings": "AACI,CAAA,gBACE,SAAA,SAEF,CAAA,qBACE,SAAA,SACA,IAAA,EACA,KAAA,EACA,MAAA,EACA,OAAA,IACA,QAAA,EAGA,eAAA,KAEF,CAAA,yBACE,WAAA,QAAA,KAAA,KAGF,CAJA,wBAIA,CAAA,aACE,QAAA,GACA,eAAA,KAEF,MAAA,CAAA,aAAA,MAAA,CAAA,aAAA,CAtBA,gBAsBA,MAAA,CAAA,aAAA,CARA,yBAWE,QAAA,KACA,eAAA,OACA,KAAA,EAAA,EAAA,KACA,WAAA",
+  "names": []
+}

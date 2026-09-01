@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/profile/auth-tokens/auth-tokens.component.scss"],
+  "sourcesContent": ["mat-card {\n  margin-bottom: 32px;\n}\n\nmat-card-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-bottom: 12px;\n\n  &::ng-deep .mat-card-header-text {\n    margin-left: 0;\n  }\n\n  mat-card-title {\n    margin-bottom: 0;\n  }\n}\n\n.content {\n  padding-top: 32px;\n  padding-bottom: 16px;\n}\n\n.content-wrapper {\n  padding-top: 16px;\n}\n\n.loading-wrapper {\n  display: flex;\n  justify-content: space-between;\n  flex-wrap: wrap;\n  align-items: center;\n}\n\n.label {\n  width: 80%;\n  margin-bottom: 10px;\n}\n\n.token {\n  width: 80%;\n}\n\n.scopes {\n  display: flex;\n  flex-direction: column;\n  margin-top: -4px;\n  margin-bottom: 32px;\n\n  &__list-wrapper {\n    display: inline-block;\n\n    span:not(:last-child)::after {\n      content: \", \";\n    }\n  }\n}\n"],
+  "mappings": "AAAA,SACE,cAAA,KAGF,gBACE,QAAA,KACA,gBAAA,cACA,YAAA,OACA,eAAA,KAEA,eAAA,UAAA,CAAA,qBACE,YAAA,EAGF,gBAAA,eACE,cAAA,EAIJ,CAAA,QACE,YAAA,KACA,eAAA,KAGF,CAAA,gBACE,YAAA,KAGF,CAAA,gBACE,QAAA,KACA,gBAAA,cACA,UAAA,KACA,YAAA,OAGF,CAAA,MACE,MAAA,IACA,cAAA,KAGF,CAAA,MACE,MAAA,IAGF,CAAA,OACE,QAAA,KACA,eAAA,OACA,WAAA,KACA,cAAA,KAEA,CAAA,qBACE,QAAA,aAEA,CAHF,qBAGE,IAAA,KAAA,YAAA,OACE,QAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/issues/issue-detail/event-detail/entry-csp/entry-csp.component.scss"],
+  "sourcesContent": [".csp {\n  &__header {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    margin-top: 16px;\n  }\n\n  &__code {\n    display: block;\n    margin-left: 24px;\n  }\n}\n\npre {\n  overflow-x: scroll;\n  margin-top: 0;\n}\n"],
+  "mappings": "AACE,CAAA,YACE,QAAA,KACA,gBAAA,cACA,YAAA,OACA,WAAA,KAGF,CAAA,UACE,QAAA,MACA,YAAA,KAIJ,IACE,WAAA,OACA,WAAA",
+  "names": []
+}

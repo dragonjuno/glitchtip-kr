@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/issues/merged/merged.component.scss"],
+  "sourcesContent": [".unmerge-button {\n  margin-bottom: 16px;\n}\n\n.merged-items-list {\n  .merged-item:not(:last-child) {\n    margin-bottom: 12px;\n  }\n\n  word-break: break-word;\n}\n\n.merged-item-checkbox {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.merged-item {\n  display: flex;\n}\n\n.merged-item-details {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n"],
+  "mappings": "AAAA,CAAA,eACE,cAAA,KAIA,CAAA,kBAAA,CAAA,WAAA,KAAA,aACE,cAAA,KAFJ,CACE,kBAIA,WAAA,WAGF,CAAA,qBACE,QAAA,KACA,eAAA,OACA,gBAAA,OAGF,CAbE,YAcA,QAAA,KAGF,CAAA,oBACE,QAAA,KACA,eAAA,OACA,gBAAA",
+  "names": []
+}

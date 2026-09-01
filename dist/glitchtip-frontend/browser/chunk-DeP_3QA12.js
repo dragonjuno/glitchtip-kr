@@ -1,0 +1,3 @@
+import{Gt as Ww,Ot as Qr,un as _}from"./chunk-CydAPAPE.js";var a=(()=>{class e{constructor(){this.el=_(Qr)}ngAfterViewInit(){(this.el.nativeElement instanceof HTMLInputElement||this.el.nativeElement instanceof HTMLTextAreaElement||this.el.nativeElement instanceof HTMLSelectElement)&&this.el.nativeElement.focus()}static{this.ɵfac=function(s){return new(s||e)}}static{this.ɵdir=Ww({type:e,selectors:[[``,`gtAutofocus`,``]]})}}return e})();export{a as t};
+//# debugId=61b791be-4e30-5132-bfd2-998a7b57c338
+//# sourceMappingURL=chunk-DeP_3QA12.js.map

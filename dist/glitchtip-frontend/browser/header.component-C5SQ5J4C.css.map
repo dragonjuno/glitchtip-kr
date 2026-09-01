@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/detail/header/header.component.scss"],
+  "sourcesContent": ["@use \"variables\" as vars;\n\n.section-header-text-light {\n  padding-right: 20px;\n  overflow-wrap: break-word;\n}\n\nheader {\n  .header-group {\n    display: flex;\n    justify-content: space-between;\n\n    @media screen and (max-width: (vars.$tablet - 1)) {\n      flex-direction: column;\n    }\n  }\n\n  gt-issue-detail-title {\n    margin-right: 20px;\n  }\n}\n\nh1 {\n  margin-top: 0;\n  margin-bottom: 0;\n  display: flex;\n  flex-direction: column;\n}\n\n.body-text-strong {\n  margin: 0;\n}\n\n.button-row {\n  display: flex;\n  align-items: flex-start;\n\n  ::ng-deep button {\n    margin-right: 8px;\n  }\n}\n"],
+  "mappings": "AAEA,CAAA,0BACE,cAAA,KACA,cAAA,WAIA,OAAA,CAAA,aACE,QAAA,KACA,gBAAA,cAEA,OAAA,YAAA,UAAA,OAJF,OAAA,CAAA,aAKI,eAAA,QAIJ,OAAA,sBACE,aAAA,KAIJ,GACE,WAAA,EACA,cAAA,EACA,QAAA,KACA,eAAA,OAGF,CAAA,iBA3BA,OA4BE,EAGF,CAAA,WACE,QAAA,KACA,YAAA,WAEA,CAJF,WAIE,UAAA,OACE,aAAA",
+  "names": []
+}

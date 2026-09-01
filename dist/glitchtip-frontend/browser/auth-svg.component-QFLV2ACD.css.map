@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/auth-svg/auth-svg.component.scss"],
+  "sourcesContent": [":host {\n  width: 100%;\n}\n\n.wrapper {\n  display: flex;\n  align-items: center;\n  margin: 0 auto;\n\n  &.auth {\n    width: 220px;\n    transform: translateX(-4px);\n\n    .text {\n      width: 144px;\n    }\n  }\n\n  &.dropdown {\n    svg {\n      margin-left: 0;\n    }\n  }\n\n  &.disconnect {\n    svg {\n      margin-left: 0;\n    }\n  }\n}\n\nmat-spinner {\n  display: inline-block;\n  vertical-align: -7.5px;\n}\n\nsvg {\n  display: inline-block;\n  width: 18px;\n  height: 18px;\n  margin: 0 24px; // Google requirements are 24dp against an 18px icon size\n  vertical-align: -5px;\n}\n\n.text {\n  display: inline-block;\n  text-align: left;\n}\n\n.margin {\n  margin-bottom: 8px;\n  margin-top: 8px;\n}\n\n.disabled {\n  fill: rgba(0, 0, 0, 0.26);\n}\n"],
+  "mappings": "AAAA,MACE,MAAA,KAGF,CAAA,QACE,QAAA,KACA,YAAA,OANF,OAOE,EAAA,KAEA,CALF,OAKE,CAAA,KACE,MAAA,MACA,UAAA,UAAA,MAEA,CATJ,OASI,CAJF,KAIE,CAAA,KACE,MAAA,MAKF,CAfJ,OAeI,CAAA,SAAA,IACE,YAAA,EAKF,CArBJ,OAqBI,CAAA,WAAA,IACE,YAAA,EAKN,YACE,QAAA,aACA,eAAA,OAGF,IACE,QAAA,aACA,MAAA,KACA,OAAA,KAvCF,OAwCE,EAAA,KACA,eAAA,KAGF,CA/BI,KAgCF,QAAA,aACA,WAAA,KAGF,CAAA,OACE,cAAA,IACA,WAAA,IAGF,CAAA,SACE,KAAA",
+  "names": []
+}

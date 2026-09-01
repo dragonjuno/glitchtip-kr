@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/issues/issue-zero-states/issue-zero-states.component.scss"],
+  "sourcesContent": ["@use \"variables\" as vars;\n\n.empty-states {\n  padding: 1.5em 0 0.5em;\n}\n\nmarkdown {\n  display: block;\n  margin-bottom: 40px;\n}\n\n.install-wrapper {\n  display: flex;\n\n  @media (max-width: vars.$medium - 1) {\n    flex-direction: column;\n  }\n}\n\n.install-instructions {\n  width: calc(100% - 300px);\n  flex-shrink: 0;\n\n  @media (max-width: vars.$large - 1) {\n    width: calc(100% - 250px);\n  }\n\n  @media (max-width: vars.$medium - 1) {\n    width: 100%;\n  }\n}\n\n.dsn {\n  width: 300px;\n  padding-left: 30px;\n  flex-shrink: 0;\n\n  @media (max-width: vars.$large - 1) {\n    width: 250px;\n  }\n\n  @media (max-width: vars.$medium - 1) {\n    width: 100%;\n    padding-left: 0;\n    padding-top: 30px;\n  }\n\n  .body-text {\n    margin: 0;\n  }\n\n  .dsn-input {\n    width: 100%;\n    margin-bottom: 30px;\n  }\n}\n\n.dsn-area {\n  padding-top: 1em;\n}\n"],
+  "mappings": "AAEA,CAAA,aAAA,QACE,MAAA,EAAA,KAGF,SACE,QAAA,MACA,cAAA,KAGF,CAAA,gBACE,QAAA,KAEA,OAAA,UAAA,OAHF,CAAA,gBAII,eAAA,QAIJ,CAAA,qBACE,MAAA,KAAA,KAAA,EAAA,OACA,YAAA,EAEA,OAAA,UAAA,QAJF,CAAA,qBAKI,MAAA,KAAA,KAAA,EAAA,QAGF,OAAA,UAAA,OARF,CAAA,qBASI,MAAA,MAIJ,CAAA,IACE,MAAA,MACA,aAAA,KACA,YAAA,EAEA,OAAA,UAAA,QALF,CAAA,IAMI,MAAA,OAGF,OAAA,UAAA,OATF,CAAA,IAUI,MAAA,KACA,aAAA,EACA,YAAA,MAGF,CAfF,IAeE,CAAA,UA7CF,OA8CI,EAGF,CAnBF,IAmBE,CAAA,UACE,MAAA,KACA,cAAA,KAIJ,CAAA,SACE,YAAA",
+  "names": []
+}

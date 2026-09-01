@@ -1,0 +1,3 @@
+import{Gt as Ww,Mn as eb,hn as aV}from"./chunk-CydAPAPE.js";import{a as E}from"./chunk-C-sOqvSq.js";var d=(()=>{class t{constructor(){this.gtInputMatcher=aV()}validate(r){let e=this.gtInputMatcher();if(e!==void 0){let i=r.parent.get(e);return i&&i.value!==r.value?{notEqual:!0}:null}return null}static{this.ɵfac=function(e){return new(e||t)}}static{this.ɵdir=Ww({type:t,selectors:[[``,`gtInputMatcher`,``]],inputs:{gtInputMatcher:[1,`gtInputMatcher`]},features:[eb([{provide:E,useExisting:t,multi:!0}])]})}}return t})();export{d as t};
+//# debugId=51095e54-6537-5000-a43b-ddee1a395aba
+//# sourceMappingURL=chunk-BUvVjUBu2.js.map

@@ -1,0 +1,8 @@
+@if (title) {
+  <h1 class="section-header-text" data-cy="list-title">
+    {{ title }}
+    @if (searchHits) {
+      ({{ searchHits }})
+    }
+  </h1>
+}

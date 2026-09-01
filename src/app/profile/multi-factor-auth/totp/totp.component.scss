@@ -1,0 +1,52 @@
+mat-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  mat-card-content {
+    padding-top: 16px;
+  }
+}
+
+mat-card-title {
+  margin-bottom: 8px;
+}
+
+button {
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+// Progress rail only; the setup stage drives navigation, not clicks.
+.totp-stepper ::ng-deep .mat-step-header {
+  pointer-events: none;
+}
+
+.totp-scan {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.totp-key {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 0;
+}
+
+.totp-key__label {
+  font: var(--mat-sys-label-medium);
+  color: var(--mat-sys-on-surface-variant);
+}
+
+.totp-string {
+  font-family: monospace;
+  word-break: break-word;
+}
+
+form mat-form-field {
+  display: block;
+  max-width: 220px;
+}

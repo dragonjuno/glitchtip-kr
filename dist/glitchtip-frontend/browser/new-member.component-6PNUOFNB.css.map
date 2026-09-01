@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/settings/members/new-member/new-member.component.scss"],
+  "sourcesContent": ["mat-card {\n  margin-top: 24px;\n  margin-bottom: 24px;\n\n  mat-card-content {\n    padding-top: 16px;\n  }\n}\n\n.email-paragraph {\n  padding-top: 8px;\n}\n\nmat-form-field {\n  width: 100%;\n}\n\nmat-radio-group {\n  margin-top: 24px;\n  margin-bottom: 24px;\n\n  mat-radio-button {\n    margin-right: 32px;\n  }\n}\n\n.role-description {\n  margin-top: 20px;\n  min-height: 42px;\n}\n\nform > div {\n  margin-top: 40px;\n  margin-bottom: 40px;\n}\n\n.server-error {\n  text-align: center;\n}\n"],
+  "mappings": "AAAA,SACE,WAAA,KACA,cAAA,KAEA,SAAA,iBACE,YAAA,KAIJ,CAAA,gBACE,YAAA,IAGF,eACE,MAAA,KAGF,gBACE,WAAA,KACA,cAAA,KAEA,gBAAA,iBACE,aAAA,KAIJ,CAAA,iBACE,WAAA,KACA,WAAA,KAGF,IAAA,CAAA,IACE,WAAA,KACA,cAAA,KAGF,CAAA,aACE,WAAA",
+  "names": []
+}

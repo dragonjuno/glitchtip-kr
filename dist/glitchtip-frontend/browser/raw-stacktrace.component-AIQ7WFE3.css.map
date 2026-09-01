@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/issues/issue-detail/event-detail/entry-exception/raw-stacktrace/raw-stacktrace.component.scss", "src/assets/styles/_variables.scss"],
+  "sourcesContent": ["@use \"@angular/material\" as mat;\n@use \"variables\" as vars;\n\n.wrapper {\n  padding: 8px;\n  border: 1px solid mat.m2-get-color-from-palette(mat.$m2-gray-palette, 300);\n  border-radius: 4px;\n  overflow-x: auto;\n}\n\n.spacer {\n  margin-left: 8px;\n}\n\np {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\n.indent {\n  margin-left: 24px;\n  padding-left: 24px;\n  text-indent: -24px;\n}\n\ndiv {\n  font-family: vars.$font-mono;\n}\n", "$font-path: \"../fonts\";\n$font-sans-serif: \"Plex Sans\";\n$font-mono: \"Plex Mono\";\n\n$shape-radius: 4px;\n\n$side-nav-width: 240px;\n$top-app-bar-height: 65px;\n$mobile-nav-height: 44px;\n\n// These are the min width breakpoints used in the Angular CDK\n$Xsmall: 0px;\n$small: 600px;\n$medium: 960px;\n$large: 1280px;\n$Xlarge: 1920px;\n\n// Come up with a better name, I dare you\n$tablet: 768px;\n"],
+  "mappings": "AAGA,CAAA,QAAA,QACE,IACA,OAAA,IAAA,MAAA,QAFF,cAGE,IACA,WAAA,KAGF,CAAA,OACE,YAAA,IAGF,EACE,WAAA,EACA,cAAA,EAGF,CAAA,OACE,YAAA,KACA,aAAA,KACA,YAAA,MAGF,IACE,YCxBU",
+  "names": []
+}

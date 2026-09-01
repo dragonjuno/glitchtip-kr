@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/settings/projects/new-project/new-project.scss"],
+  "sourcesContent": [".form-center {\n  text-align: center;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.l-body {\n  max-width: 650px;\n}\n\nmat-form-field {\n  display: block;\n  width: 100%;\n}\n\n.teams {\n  display: flex;\n  align-items: center;\n  margin-bottom: 10px;\n\n  .icon-button-shift {\n    margin-bottom: 19.75px;\n  }\n}\n\n.project-name {\n  margin: 10px 0;\n}\n\ngt-loading-button {\n  margin-top: 10px;\n}\n"],
+  "mappings": "AAAA,CAAA,YACE,WAAA,OACA,YAAA,KACA,aAAA,KAGF,CAAA,OACE,UAAA,MAGF,eACE,QAAA,MACA,MAAA,KAGF,CAAA,MACE,QAAA,KACA,YAAA,OACA,cAAA,KAEA,CALF,MAKE,CAAA,kBACE,cAAA,QAIJ,CAAA,aAzBA,OA0BE,KAAA,EAGF,kBACE,WAAA",
+  "names": []
+}

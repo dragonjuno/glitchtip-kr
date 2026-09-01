@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/accept/accept-invite/accept-invite.component.scss"],
+  "sourcesContent": [".logo-container,\nmat-card.skinnier {\n  max-width: 500px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 24px;\n}\n\n.not-skinny {\n  margin: 25px;\n}\n\n.logo-container {\n  text-align: center;\n  img {\n    width: 150px;\n  }\n}\n\n.button-container {\n  display: flex;\n  justify-content: space-between;\n}\n"],
+  "mappings": "AAAA,CAAA,eAAA,QAAA,CAAA,SAEE,UAAA,MACA,YAAA,KACA,aAAA,KACA,WAAA,KAGF,CAAA,WARA,OASE,KAGF,CAZA,eAaE,WAAA,OACA,CAdF,eAcE,IACE,MAAA,MAIJ,CAAA,iBACE,QAAA,KACA,gBAAA",
+  "names": []
+}

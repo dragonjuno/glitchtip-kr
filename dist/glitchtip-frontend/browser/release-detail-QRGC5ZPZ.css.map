@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/releases/release-detail/release-detail.scss"],
+  "sourcesContent": ["table {\n  width: 100%;\n  margin-bottom: 40px;\n}\n\n.pagination-buttons-container {\n  width: 100%;\n  display: flex;\n  justify-content: flex-end;\n}\n\n.name {\n  width: 100%;\n  padding-top: 8px;\n  padding-bottom: 8px;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n  overflow: hidden;\n}\n\n.releases-list-link {\n  margin: 0 0 20px;\n}\n"],
+  "mappings": "AAAA,MACE,MAAA,KACA,cAAA,KAGF,CAAA,6BACE,MAAA,KACA,QAAA,KACA,gBAAA,SAGF,CAAA,KACE,MAAA,KACA,YAAA,IACA,eAAA,IACA,YAAA,OACA,cAAA,SACA,SAAA,OAGF,CAAA,mBApBA,OAqBE,EAAA,EAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/profile/multi-factor-auth/totp/totp.component.scss"],
+  "sourcesContent": ["mat-card {\n  margin-top: 20px;\n  margin-bottom: 20px;\n\n  mat-card-content {\n    padding-top: 16px;\n  }\n}\n\nmat-card-title {\n  margin-bottom: 8px;\n}\n\nbutton {\n  margin-top: 8px;\n  margin-right: 8px;\n}\n\n// Progress rail only; the setup stage drives navigation, not clicks.\n.totp-stepper ::ng-deep .mat-step-header {\n  pointer-events: none;\n}\n\n.totp-scan {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 16px;\n  margin-bottom: 8px;\n}\n\n.totp-key {\n  display: flex;\n  flex-direction: column;\n  gap: 2px;\n  margin: 0;\n}\n\n.totp-key__label {\n  font: var(--mat-sys-label-medium);\n  color: var(--mat-sys-on-surface-variant);\n}\n\n.totp-string {\n  font-family: monospace;\n  word-break: break-word;\n}\n\nform mat-form-field {\n  display: block;\n  max-width: 220px;\n}\n"],
+  "mappings": "AAAA,SACE,WAAA,KACA,cAAA,KAEA,SAAA,iBACE,YAAA,KAIJ,eACE,cAAA,IAGF,OACE,WAAA,IACA,aAAA,IAIF,CAAA,aAAA,UAAA,CAAA,gBACE,eAAA,KAGF,CAAA,UACE,QAAA,KACA,UAAA,KACA,YAAA,OACA,IAAA,KACA,cAAA,IAGF,CAAA,SACE,QAAA,KACA,eAAA,OACA,IAAA,IAlCF,OAmCE,EAGF,CAAA,gBACE,KAAA,IAAA,wBACA,MAAA,IAAA,8BAGF,CAAA,YACE,YAAA,UACA,WAAA,WAGF,KAAA,eACE,QAAA,MACA,UAAA",
+  "names": []
+}

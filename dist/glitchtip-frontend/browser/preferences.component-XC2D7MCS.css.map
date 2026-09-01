@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/profile/preferences/preferences.component.scss"],
+  "sourcesContent": ["@use \"variables\" as vars;\n\n:host {\n  display: flex;\n}\n\nmat-card {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n}\n\nmat-card-content {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n}\n\nform {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n\n  gt-loading-button {\n    margin-top: auto;\n  }\n}\n\nmat-form-field {\n  margin-bottom: 10px;\n\n  @media screen and (max-width: vars.$small - 1) {\n    margin-bottom: 20px;\n  }\n}\n\n.invalid {\n  color: var(--mat-sys-error);\n}\n\n.first-field {\n  margin-top: 24px;\n}\n\n.theme-field {\n  margin-top: 8px;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  gap: 8px;\n  margin-bottom: 16px;\n}\n\n.theme-label {\n  font: var(--mat-sys-body-small);\n  letter-spacing: var(--mat-sys-body-small-tracking);\n  color: var(--mat-sys-on-surface-variant);\n}\n"],
+  "mappings": "AAEA,MACE,QAAA,KAGF,SACE,KAAA,EACA,QAAA,KACA,eAAA,OAGF,iBACE,KAAA,EACA,QAAA,KACA,eAAA,OAGF,KACE,KAAA,EACA,QAAA,KACA,eAAA,OAEA,KAAA,kBACE,WAAA,KAIJ,eACE,cAAA,KAEA,OAAA,YAAA,UAAA,OAHF,eAII,cAAA,MAIJ,CAAA,QACE,MAAA,IAAA,iBAGF,CAAA,YACE,WAAA,KAGF,CAAA,YACE,WAAA,IACA,QAAA,KACA,eAAA,OACA,YAAA,WACA,IAAA,IACA,cAAA,KAGF,CAAA,YACE,KAAA,IAAA,sBACA,eAAA,IAAA,+BACA,MAAA,IAAA",
+  "names": []
+}

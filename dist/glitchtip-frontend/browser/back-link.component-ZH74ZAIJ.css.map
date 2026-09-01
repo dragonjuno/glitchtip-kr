@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/detail/back-link/back-link.component.scss"],
+  "sourcesContent": ["@use \"variables\" as vars;\n\n.back-link-text {\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  display: block;\n  max-width: 250px;\n\n  @media screen and (min-width: vars.$large) {\n    max-width: 400px;\n  }\n}\n"],
+  "mappings": "AAEA,CAAA,eACE,YAAA,OACA,SAAA,OACA,cAAA,SACA,QAAA,MACA,UAAA,MAEA,OAAA,YAAA,UAAA,QAPF,CAAA,eAQI,UAAA",
+  "names": []
+}

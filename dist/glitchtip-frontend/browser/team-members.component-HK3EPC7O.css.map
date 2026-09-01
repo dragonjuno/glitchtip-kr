@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/settings/teams/team-members/team-members.component.scss"],
+  "sourcesContent": [".card-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\nmat-card {\n  margin: 24px 8px 8px 8px;\n}\n\n.center-text {\n  text-align: center;\n}\n\nmat-card-content {\n  margin-top: 16px;\n\n  .member-list-item {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 16px 0;\n\n    &:nth-last-child(n + 2) {\n      border-bottom: 1px solid var(--mat-sys-outline-variant);\n    }\n  }\n}\n"],
+  "mappings": "AAAA,CAAA,YACE,QAAA,KACA,gBAAA,cACA,YAAA,OAGF,SANA,OAOE,KAAA,IAAA,IAGF,CAAA,YACE,WAAA,OAGF,iBACE,WAAA,KAEA,iBAAA,CAAA,iBACE,QAAA,KACA,gBAAA,cACA,YAAA,OApBJ,QAqBI,KAAA,EAEA,iBAAA,CANF,gBAME,qBACE,cAAA,IAAA,MAAA,IAAA",
+  "names": []
+}

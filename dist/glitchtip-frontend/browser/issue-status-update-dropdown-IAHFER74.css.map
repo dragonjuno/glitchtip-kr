@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/issue-status-update-dropdown/issue-status-update-dropdown.scss"],
+  "sourcesContent": [".invisible {\n  visibility: hidden;\n}\n\n// Fixed width so the trigger doesn't resize as the status label changes.\n.status-trigger {\n  min-width: 140px;\n  justify-content: center;\n}\n"],
+  "mappings": "AAAA,CAAA,UACE,WAAA,OAIF,CAAA,eACE,UAAA,MACA,gBAAA",
+  "names": []
+}

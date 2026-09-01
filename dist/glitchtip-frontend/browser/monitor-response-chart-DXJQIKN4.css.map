@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/uptime/monitor-response-chart/monitor-response-chart.ts"],
+  "sourcesContent": ["\n    .chart-container {\n      height: 250px;\n      width: 100%;\n      float: right;\n    }\n  "],
+  "mappings": "AACI,CAAA,gBACE,OAAA,MACA,MAAA,KACA,MAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/settings/teams/teams.component.scss"],
+  "sourcesContent": ["mat-card {\n  margin-top: 24px;\n  margin-bottom: 24px;\n\n  mat-card-header {\n    flex-direction: column;\n  }\n\n  mat-card-content {\n    padding-top: 16px;\n  }\n}\n\nmat-error {\n  display: block;\n}\n\n.description {\n  margin-top: 12px;\n}\n\n.center-text {\n  text-align: center;\n}\n\n.team-list-item {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 12px 0;\n\n  &:nth-last-child(n + 2) {\n    border-bottom: 1px solid var(--mat-sys-outline-variant);\n  }\n}\n"],
+  "mappings": "AAAA,SACE,WAAA,KACA,cAAA,KAEA,SAAA,gBACE,eAAA,OAGF,SAAA,iBACE,YAAA,KAIJ,UACE,QAAA,MAGF,CAAA,YACE,WAAA,KAGF,CAAA,YACE,WAAA,OAGF,CAAA,eACE,QAAA,KACA,gBAAA,cACA,YAAA,OA5BF,QA6BE,KAAA,EAEA,CANF,cAME,qBACE,cAAA,IAAA,MAAA,IAAA",
+  "names": []
+}

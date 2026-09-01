@@ -1,0 +1,1718 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-US">
+  <file id="ngi18n" original="ng.template">
+    <unit id="827275858583778252">
+      <segment>
+        <source>Organization Invite</source>
+      </segment>
+    </unit>
+    <unit id="8464263618615235731">
+      <segment>
+        <source>Create New Organization</source>
+      </segment>
+    </unit>
+    <unit id="2804049603671779506">
+      <segment>
+        <source>Delete User Account</source>
+      </segment>
+    </unit>
+    <unit id="1203636405699791528">
+      <segment>
+        <source>By deleting your user account, you will permanently lose all data, including access to organization projects and their associated events.</source>
+      </segment>
+    </unit>
+    <unit id="8069478311783909563">
+      <segment>
+        <source>Make sure to delete or transfer ownership of any organizations before deleting your account. Owners of paid organization subscriptions are not able to delete their account.</source>
+      </segment>
+    </unit>
+    <unit id="3078760420237279624">
+      <segment>
+        <source>Auth Tokens</source>
+      </segment>
+    </unit>
+    <unit id="7345261406944700511">
+      <segment>
+        <source>Create New Token</source>
+      </segment>
+    </unit>
+    <unit id="7890916963184797167">
+      <segment>
+        <source>Authentication tokens give you access to the GlitchTip API. You can create these tokens as authentication to gain specific access around the app.</source>
+      </segment>
+    </unit>
+    <unit id="7538977961049758582">
+      <segment>
+        <source>Your Tokens</source>
+      </segment>
+    </unit>
+    <unit id="5612078901304454283">
+      <segment>
+        <source>Once you create a token, it will show up here.</source>
+      </segment>
+    </unit>
+    <unit id="4587452935087847438">
+      <segment>
+        <source>Releases</source>
+      </segment>
+    </unit>
+    <unit id="2251615247560743164">
+      <segment>
+        <source>There are no releases for this organization.</source>
+      </segment>
+    </unit>
+    <unit id="6326759550347037576">
+      <segment>
+        <source>Accept invitation</source>
+      </segment>
+    </unit>
+    <unit id="7055509398589474309">
+      <segment>
+        <source>Log in with existing account</source>
+      </segment>
+    </unit>
+    <unit id="4648253303476880511">
+      <segment>
+        <source>Create new account</source>
+      </segment>
+    </unit>
+    <unit id="4406952910598958793">
+      <segment>
+        <source>To continue, you must either log in to your existing account, or create a new one.</source>
+      </segment>
+    </unit>
+    <unit id="1095247315180807956">
+      <segment>
+        <source>New to GlitchTip?</source>
+      </segment>
+    </unit>
+    <unit id="1176990449799757498">
+      <segment>
+        <source>Issues</source>
+      </segment>
+    </unit>
+    <unit id="4691887509600985309">
+      <segment>
+        <source>Members</source>
+      </segment>
+    </unit>
+    <unit id="1399934467160441489">
+      <segment>
+        <source>Create a New Organization</source>
+      </segment>
+    </unit>
+    <unit id="22386476955637539">
+      <segment>
+        <source>Enter the code from the authenticator app on your mobile device. If you’ve lost your device, you may enter one of your recovery codes.</source>
+      </segment>
+    </unit>
+    <unit id="1466012768716286509">
+      <segment>
+        <source>Sign Up</source>
+      </segment>
+    </unit>
+    <unit id="6509290351210910224">
+      <segment>
+        <source>To enable user reports, take a look at `showReportDialog` in the JS SDK.</source>
+      </segment>
+    </unit>
+    <unit id="6722197117273372334">
+      <segment>
+        <source>Reopen</source>
+      </segment>
+    </unit>
+    <unit id="2454050363478003966">
+      <segment>
+        <source>Login</source>
+      </segment>
+    </unit>
+    <unit id="2481283412904907364">
+      <segment>
+        <source>Support GlitchTip</source>
+      </segment>
+    </unit>
+    <unit id="2907070106267329067">
+      <segment>
+        <source>Log in with authenticator app instead</source>
+      </segment>
+    </unit>
+    <unit id="4930506384627295710">
+      <segment>
+        <source>Settings</source>
+      </segment>
+    </unit>
+    <unit id="4915431133669985304">
+      <segment>
+        <source>Profile</source>
+      </segment>
+    </unit>
+    <unit id="3056614778231322145">
+      <segment>
+        <source>No user reports have been submitted.</source>
+      </segment>
+    </unit>
+    <unit id="3328654199895417292">
+      <segment>
+        <source>Log in with authenticator app</source>
+      </segment>
+    </unit>
+    <unit id="3737185603553645778">
+      <segment>
+        <source>Your password is required to log in</source>
+      </segment>
+    </unit>
+    <unit id="6312371663219634282">
+      <segment>
+        <source>Mark as resolved</source>
+      </segment>
+    </unit>
+    <unit id="4053112335752964687">
+      <segment>
+        <source>Add Project</source>
+      </segment>
+    </unit>
+    <unit id="7934833136974560675">
+      <segment>
+        <source>Retry</source>
+      </segment>
+    </unit>
+    <unit id="5851560788527570644">
+      <segment>
+        <source>Notifications</source>
+      </segment>
+    </unit>
+    <unit id="4253861884986496315">
+      <segment>
+        <source>Your email is required to log in</source>
+      </segment>
+    </unit>
+    <unit id="4086606389696938932">
+      <segment>
+        <source>Account</source>
+      </segment>
+    </unit>
+    <unit id="4539315091720234670">
+      <segment>
+        <source>Multi-factor Authentication</source>
+      </segment>
+    </unit>
+    <unit id="4736017430891007987">
+      <segment>
+        <source>Log in with security key</source>
+      </segment>
+    </unit>
+    <unit id="5113165610004622651">
+      <segment>
+        <source>Log Out</source>
+      </segment>
+    </unit>
+    <unit id="4551866846795587701">
+      <segment>
+        <source>Create Organization</source>
+      </segment>
+    </unit>
+    <unit id="2336550011721758066">
+      <segment>
+        <source>Log in</source>
+      </segment>
+    </unit>
+    <unit id="6627551976444260400">
+      <segment>
+        <source>or</source>
+      </segment>
+    </unit>
+    <unit id="2152994175880724805">
+      <segment>
+        <source>Code must be of length 6, 8, or 16</source>
+      </segment>
+    </unit>
+    <unit id="6972105223770675605">
+      <segment>
+        <source>Reset Password</source>
+      </segment>
+    </unit>
+    <unit id="1240739868347418586">
+      <segment>
+        <source>Ignore</source>
+      </segment>
+    </unit>
+    <unit id="7045123878111147511">
+      <segment>
+        <source>Required</source>
+      </segment>
+    </unit>
+    <unit id="2305074984265047688">
+      <segment>
+        <source>Plug in your security key and follow the prompt from your browser to finish logging in.</source>
+      </segment>
+    </unit>
+    <unit id="7451233168808859381">
+      <segment>
+        <source>Verification Code</source>
+      </segment>
+    </unit>
+    <unit id="9008968878373693685">
+      <segment>
+        <source>Teams</source>
+      </segment>
+    </unit>
+    <unit id="7079167664042577585">
+      <segment>
+        <source>This is the first step to get started with GlitchTip.</source>
+      </segment>
+    </unit>
+    <unit id="7830707034534607415">
+      <segment>
+        <source>Subscription</source>
+      </segment>
+    </unit>
+    <unit id="8938510541215036054">
+      <segment>
+        <source>Enter a valid email address</source>
+      </segment>
+    </unit>
+    <unit id="9040838861188606319">
+      <segment>
+        <source>Log in with security key instead</source>
+      </segment>
+    </unit>
+    <unit id="907767253133208536">
+      <segment>
+        <source>Your password should be at least 8 characters long</source>
+      </segment>
+    </unit>
+    <unit id="2935794773842380882">
+      <segment>
+        <source>Organization creation has been disabled on this instance of GlitchTip. Contact an administrator to be invited into an existing organization.</source>
+      </segment>
+    </unit>
+    <unit id="3301086086650990787">
+      <segment>
+        <source>Register</source>
+      </segment>
+    </unit>
+    <unit id="5277739594710154939">
+      <segment>
+        <source>Already have an account?</source>
+      </segment>
+    </unit>
+    <unit id="8520023152129279437">
+      <segment>
+        <source>Log In</source>
+      </segment>
+    </unit>
+    <unit id="4426319772533875265">
+      <segment>
+        <source> Settings </source>
+      </segment>
+    </unit>
+    <unit id="375247309021166846">
+      <notes>
+        <note category="description">Uptime check reports down</note>
+      </notes>
+      <segment>
+        <source>Down</source>
+      </segment>
+    </unit>
+    <unit id="4355002072406321718">
+      <segment>
+        <source>Request not received</source>
+      </segment>
+    </unit>
+    <unit id="4775550080689015987">
+      <segment>
+        <source>Reason</source>
+      </segment>
+    </unit>
+    <unit id="5573486145935722913">
+      <notes>
+        <note category="description">Uptime check reports up</note>
+      </notes>
+      <segment>
+        <source>Up</source>
+      </segment>
+    </unit>
+    <unit id="5611592591303869712">
+      <segment>
+        <source>Status</source>
+      </segment>
+    </unit>
+    <unit id="663614338028506842">
+      <segment>
+        <source>Response time</source>
+      </segment>
+    </unit>
+    <unit id="6998318993417414160">
+      <segment>
+        <source>Response Time</source>
+      </segment>
+    </unit>
+    <unit id="8154453727027523235">
+      <segment>
+        <source>Alerts</source>
+      </segment>
+    </unit>
+    <unit id="8470311110519302542">
+      <segment>
+        <source>No data</source>
+      </segment>
+    </unit>
+    <unit id="8998179362936748717">
+      <segment>
+        <source>OK</source>
+      </segment>
+    </unit>
+    <unit id="2159130950882492111">
+      <segment>
+        <source>Cancel</source>
+      </segment>
+    </unit>
+    <unit id="4267924302851864012">
+      <segment>
+        <source>Add An Alert Recipient</source>
+      </segment>
+    </unit>
+    <unit id="4292593925952604077">
+      <segment>
+        <source>Send an email to team members on this project.</source>
+      </segment>
+    </unit>
+    <unit id="1339421090554377874">
+      <segment>
+        <source>You don&apos;t have any alerts set up. Click &quot;Create New Alert&quot; on the top right of this card to get started.</source>
+      </segment>
+    </unit>
+    <unit id="5534317372657539313">
+      <segment>
+        <source>Create New Alert</source>
+      </segment>
+    </unit>
+    <unit id="5841403146698469514">
+      <segment>
+        <source>Create New Project</source>
+      </segment>
+    </unit>
+    <unit id="7091571651222742304">
+      <segment>
+        <source>Projects</source>
+      </segment>
+    </unit>
+    <unit id="7903124738511795245">
+      <segment>
+        <source>This alert isn&apos;t being sent anywhere. Select &quot;Add An Alert Recipient&quot; below to get started.</source>
+      </segment>
+    </unit>
+    <unit id="8525090520605150470">
+      <segment>
+        <source>Once you have the app running, proceed to the next step.</source>
+      </segment>
+    </unit>
+    <unit id="8597728355047941352">
+      <segment>
+        <source>New Alert</source>
+      </segment>
+    </unit>
+    <unit id="8953033926734869941">
+      <segment>
+        <source>Name</source>
+      </segment>
+    </unit>
+    <unit id="935187492052582731">
+      <segment>
+        <source>Submit</source>
+      </segment>
+    </unit>
+    <unit id="1322586333669103999">
+      <segment>
+        <source>Performance</source>
+      </segment>
+    </unit>
+    <unit id="4630994130285969053">
+      <segment>
+        <source>Uptime Monitors</source>
+      </segment>
+    </unit>
+    <unit id="2045779543869682721">
+      <segment>
+        <source>Get Started</source>
+      </segment>
+    </unit>
+    <unit id="2876784140114247021">
+      <segment>
+        <source>or your favorite TOTP app on your mobile device</source>
+      </segment>
+    </unit>
+    <unit id="1738896816778317550">
+      <segment>
+        <source>Download </source>
+      </segment>
+    </unit>
+    <unit id="7822329547663295003">
+      <segment>
+        <source>Make your account more secure by requiring a time-based one time password (TOTP) code after you log in.</source>
+      </segment>
+    </unit>
+    <unit id="3885497195825665706">
+      <segment>
+        <source>Next</source>
+      </segment>
+    </unit>
+    <unit id="3971398713275316255">
+      <segment>
+        <source>Enable TOTP</source>
+      </segment>
+    </unit>
+    <unit id="4071496549933477149">
+      <segment>
+        <source>6-digit Code</source>
+      </segment>
+    </unit>
+    <unit id="2726971803372813135">
+      <segment>
+        <source>Scan the QR Code in your authenticator app or enter the code below:</source>
+      </segment>
+    </unit>
+    <unit id="5995673810894749629">
+      <segment>
+        <source>Code must be 6 digits</source>
+      </segment>
+    </unit>
+    <unit id="641978626769494466">
+      <segment>
+        <source>TOTP authentication</source>
+      </segment>
+    </unit>
+    <unit id="7156742322731584028">
+      <segment>
+        <source>Disable TOTP</source>
+      </segment>
+    </unit>
+    <unit id="7830120603266316643">
+      <segment>
+        <source>TOTP authentication is currently enabled on your account.</source>
+      </segment>
+    </unit>
+    <unit id="291649817233009176">
+      <segment>
+        <source>Enter a six-digit password generated by your authenticator app and submit this form to enable TOTP authentication:</source>
+      </segment>
+    </unit>
+    <unit id="520980174761118864">
+      <segment>
+        <source>Log in with <ph id="0" equiv="INTERPOLATION" disp="{{ socialApp.name }}"/></source>
+      </segment>
+    </unit>
+    <unit id="5715233980836936433">
+      <segment>
+        <source>Donate <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&quot;https://liberapay.com/GlitchTip/donate&quot; &gt;" dispEnd="&lt;/a&gt;"> via Liberapay </pc></source>
+      </segment>
+    </unit>
+    <unit id="3509639242131814864">
+      <segment>
+        <source> Purchase support: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;mailto:support@glitchtip.com?subject=Purchase support inquiry&quot; &gt;" dispEnd="&lt;/a &gt;">support@glitchtip.com</pc></source>
+      </segment>
+    </unit>
+    <unit id="5349000458605027240">
+      <segment>
+        <source> Switch to <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a target=&quot;_blank&quot; rel=&quot;noopener&quot; href=&quot;https://app.glitchtip.com/register?utm_medium=website&amp;utm_source=glitchtip&amp;utm_campaign=selfhost_nagware&quot; &gt;" dispEnd="&lt;/a &gt;">Hosted GlitchTip</pc></source>
+      </segment>
+    </unit>
+    <unit id="1002135012519641907">
+      <segment>
+        <source>You have multiple projects selected. Select a single project to learn more about why there&apos;s nothing here.</source>
+      </segment>
+    </unit>
+    <unit id="100331146953492785">
+      <segment>
+        <source>Connect your <ph id="0" equiv="INTERPOLATION" disp="{{ activeProjectPlatformName() }}"/> project to GlitchTip</source>
+      </segment>
+    </unit>
+    <unit id="177080935354192505">
+      <segment>
+        <source>If you go to this project&apos;s <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[ &apos;/&apos;, activeOrganizationSlug(), &apos;settings&apos;, &apos;projects&apos;, activeProjectSlug(), ]&quot; &gt;" dispEnd="&lt;/a &gt;"> settings page</pc>, you can pick a platform. If you do, you&apos;ll get more specific instructions about how to get started. </source>
+      </segment>
+    </unit>
+    <unit id="1308044504532512434">
+      <segment>
+        <source>Personal Project Notifications</source>
+      </segment>
+    </unit>
+    <unit id="1744184913467319832">
+      <segment>
+        <source> Data Source Name: The code that connects your project to GlitchTip. Install a library into your project, then configure it with the DSN so that it knows how to send errors to your GlitchTip account. </source>
+      </segment>
+    </unit>
+    <unit id="1830742686550996935">
+      <segment>
+        <source>This organization has no projects.</source>
+      </segment>
+    </unit>
+    <unit id="2431017377186650072">
+      <segment>
+        <source>Edit Preferences</source>
+      </segment>
+    </unit>
+    <unit id="6960036943669975538">
+      <segment>
+        <source>Create new project in <ph id="0" equiv="INTERPOLATION" disp="{{ organization.name }}"/></source>
+      </segment>
+    </unit>
+    <unit id="3647474424920112919">
+      <segment>
+        <source>Connect your project to GlitchTip</source>
+      </segment>
+    </unit>
+    <unit id="3821671973040323145">
+      <segment>
+        <source> Because you are an admin for <ph id="0" equiv="INTERPOLATION" disp="{{ project.organization.name }}"/>, you have access to all of its projects. However, if you want to view issues for <ph id="1" equiv="INTERPOLATION_1" disp="{{ project.name }}"/>, you must be a member of one of its teams. </source>
+      </segment>
+    </unit>
+    <unit id="3834295552674710150">
+      <segment>
+        <source>In order to use GlitchTip, you&apos;ll need to create an organization.</source>
+      </segment>
+    </unit>
+    <unit id="4388879716045736175">
+      <segment>
+        <source>Note</source>
+      </segment>
+    </unit>
+    <unit id="44869671307620538">
+      <segment>
+        <source><pc id="0" equivStart="START_BOLD_TEXT" equivEnd="CLOSE_BOLD_TEXT" type="fmt" dispStart="&lt;b&gt;" dispEnd="&lt;/b&gt;">Releases:</pc> Each megabyte of file storage is counted as an event</source>
+      </segment>
+    </unit>
+    <unit id="4605329245463156030">
+      <segment>
+        <source><pc id="0" equivStart="START_BOLD_TEXT" equivEnd="CLOSE_BOLD_TEXT" type="fmt" dispStart="&lt;b&gt;" dispEnd="&lt;/b&gt;">Performance:</pc> Each time your app sends GlitchTip a transaction report for a tracked activity on your app</source>
+      </segment>
+    </unit>
+    <unit id="5183247000083361116">
+      <segment>
+        <source>Out of the projects you have selected, you are not a part of that project&apos;s team for at least one of them.</source>
+      </segment>
+    </unit>
+    <unit id="5448343062628656309">
+      <segment>
+        <source>No events match your filters.</source>
+      </segment>
+    </unit>
+    <unit id="5621052107213107389">
+      <segment>
+        <source>Update Project</source>
+      </segment>
+    </unit>
+    <unit id="5729418620241283277">
+      <segment>
+        <source>Events</source>
+      </segment>
+    </unit>
+    <unit id="5874780279351956748">
+      <segment>
+        <source>What&apos;s this all about?</source>
+      </segment>
+    </unit>
+    <unit id="5923980840626905087">
+      <segment>
+        <source> Platform Documentation </source>
+      </segment>
+    </unit>
+    <unit id="6302903762785466130">
+      <segment>
+        <source>Delete Project</source>
+      </segment>
+    </unit>
+    <unit id="4739937000925855165">
+      <segment>
+        <source>Most instructions will have a spot that says &quot;YOUR-GLITCHTIP-DSN-HERE&quot;. Copy the DSN and paste it into that spot.</source>
+      </segment>
+    </unit>
+    <unit id="6481795403650848876">
+      <segment>
+        <source>This page is showing instructions on how to connect GlitchTip to your project based on the platform you specified.</source>
+      </segment>
+    </unit>
+    <unit id="6699311255070036397">
+      <segment>
+        <source>Edit whether or not you want to receive notifications for this project</source>
+      </segment>
+    </unit>
+    <unit id="6940348790913679018">
+      <segment>
+        <source>To add a project to this organization, press the &quot;Create New Project&quot; button.</source>
+      </segment>
+    </unit>
+    <unit id="7033296732013526864">
+      <segment>
+        <source>Client Keys (DSN)</source>
+      </segment>
+    </unit>
+    <unit id="7226346166840376717">
+      <segment>
+        <source>By deleting your project, you will lose all associated data. This cannot be undone.</source>
+      </segment>
+    </unit>
+    <unit id="7350070325817798539">
+      <segment>
+        <source><pc id="0" equivStart="START_BOLD_TEXT" equivEnd="CLOSE_BOLD_TEXT" type="fmt" dispStart="&lt;b&gt;" dispEnd="&lt;/b&gt;">Issues:</pc> Each occurrence of an event reported to GlitchTip</source>
+      </segment>
+    </unit>
+    <unit id="7819314041543176992">
+      <segment>
+        <source>Close</source>
+      </segment>
+    </unit>
+    <unit id="79938863716203390">
+      <segment>
+        <source>To add a project to this organization, press the &quot;Add Project&quot; button.</source>
+      </segment>
+    </unit>
+    <unit id="8251107285080064288">
+      <segment>
+        <source>Try changing your search parameters to get something to show here.</source>
+      </segment>
+    </unit>
+    <unit id="8267592046747299006">
+      <segment>
+        <source>You can&apos;t see issues for this project because you&apos;re not on the team.</source>
+      </segment>
+    </unit>
+    <unit id="848861324662209850">
+      <segment>
+        <source>Events are the unit of measure for tracking GlitchTip usage. An organization&apos;s maximum number of events per month is determined by its subscription type. Events are used to measure four GlitchTip features:</source>
+      </segment>
+    </unit>
+    <unit id="105639553198587677">
+      <segment>
+        <source>Uptime events:</source>
+      </segment>
+    </unit>
+    <unit id="1098433909560821849">
+      <segment>
+        <source>Start date for this plan: <ph id="0" equiv="INTERPOLATION" disp="{{ subscription.startDate | date }}"/></source>
+      </segment>
+    </unit>
+    <unit id="1109945939275542736">
+      <segment>
+        <source>This organization has an active subscription to GlitchTip. Thank you!</source>
+      </segment>
+    </unit>
+    <unit id="1219619838898772490">
+      <segment>
+        <source>Plan cost: <ph id="0" equiv="INTERPOLATION" disp="{{ subscription.effectivePrice | currency }}"/></source>
+      </segment>
+    </unit>
+    <unit id="1678548018195726594">
+      <segment>
+        <source>Create Team</source>
+      </segment>
+    </unit>
+    <unit id="1743088859194300989">
+      <segment>
+        <source>Your Teams</source>
+      </segment>
+    </unit>
+    <unit id="182653714972067036">
+      <segment>
+        <source>Enter a valid slug to create a team</source>
+      </segment>
+    </unit>
+    <unit id="1935221132513179654">
+      <segment>
+        <source>Error tracking</source>
+      </segment>
+    </unit>
+    <unit id="2115863840021276098">
+      <segment>
+        <source>Now that you have an organization and a subscription, create a project.</source>
+      </segment>
+    </unit>
+    <unit id="2167503793894173335">
+      <segment>
+        <source>Create a New Team</source>
+      </segment>
+    </unit>
+    <unit id="2314099574053878289">
+      <segment>
+        <source>Enter a team name</source>
+      </segment>
+    </unit>
+    <unit id="2333988009900140990">
+      <segment>
+        <source>Performance events:</source>
+      </segment>
+    </unit>
+    <unit id="2336062695979702768">
+      <segment>
+        <source>Unlimited projects</source>
+      </segment>
+    </unit>
+    <unit id="2432384855929218388">
+      <segment>
+        <source>Send invoice</source>
+      </segment>
+    </unit>
+    <unit id="2501480779300161804">
+      <segment>
+        <source>By deleting your team, you will lose all associated data. This cannot be undone.</source>
+      </segment>
+    </unit>
+    <unit id="2506462652585445837">
+      <segment>
+        <source>You have selected the free plan. Please consider making a monthly <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://liberapay.com/GlitchTip/donate&quot; target=&quot;_blank&quot; &gt;" dispEnd="&lt;/a &gt;">donation</pc> to help keep open source development sustainable. Thank you for choosing GlitchTip!</source>
+      </segment>
+    </unit>
+    <unit id="2832668001279440249">
+      <segment>
+        <source>Delete Team</source>
+      </segment>
+    </unit>
+    <unit id="332657983215308739">
+      <segment>
+        <source>This team doesn&apos;t have any projects</source>
+      </segment>
+    </unit>
+    <unit id="3348547714642337740">
+      <segment>
+        <source>No members</source>
+      </segment>
+    </unit>
+    <unit id="3768641442274728020">
+      <segment>
+        <source>No projects</source>
+      </segment>
+    </unit>
+    <unit id="4358157694468493157">
+      <segment>
+        <source>Other Teams</source>
+      </segment>
+    </unit>
+    <unit id="4479333657075318113">
+      <segment>
+        <source>You aren&apos;t part of any teams. Join a team below or press the &quot;Create Team&quot; button in the upper right.</source>
+      </segment>
+    </unit>
+    <unit id="4687980611669913181">
+      <segment>
+        <source>You don&apos;t have any teams set up. Teams determine which users have access to projects in your organization.</source>
+      </segment>
+    </unit>
+    <unit id="4894116049835995028">
+      <segment>
+        <source>Questions about subscriptions? Need assistance, or a bigger plan? Contact us at <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;mailto:{{ billingEmail }}&quot;&gt;" dispEnd="&lt;/a &gt;"><ph id="1" equiv="INTERPOLATION" disp="{{ billingEmail }}"/></pc>.</source>
+      </segment>
+    </unit>
+    <unit id="4996538950129944353">
+      <segment>
+        <source>Issue events:</source>
+      </segment>
+    </unit>
+    <unit id="5028777105388019087">
+      <segment>
+        <source>Details</source>
+      </segment>
+    </unit>
+    <unit id="5105557512709552795">
+      <segment>
+        <source>Add Member</source>
+      </segment>
+    </unit>
+    <unit id="5363625141068095814">
+      <segment>
+        <source>This organization has a trial subscription to GlitchTip.</source>
+      </segment>
+    </unit>
+    <unit id="5432975988429346472">
+      <segment>
+        <source>This team doesn&apos;t have any members</source>
+      </segment>
+    </unit>
+    <unit id="5618100320383468888">
+      <segment>
+        <source>Billing period: <ph id="0" equiv="INTERPOLATION" disp="{{ subscription.currentPeriodStart | date }}"/> to <ph id="1" equiv="INTERPOLATION_1" disp="{{ subscription.currentPeriodEnd | date }}"/></source>
+      </segment>
+    </unit>
+    <unit id="5799782740550832490">
+      <segment>
+        <source>This organization does not have an active subscription to GlitchTip. Pick a plan to get started.</source>
+      </segment>
+    </unit>
+    <unit id="5875130684997376720">
+      <segment>
+        <source>Billing</source>
+      </segment>
+    </unit>
+    <unit id="7486830422791899026">
+      <segment>
+        <source>If you have questions about your subscription, please contact us at <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;mailto:{{ billingEmail }}&quot;&gt;" dispEnd="&lt;/a &gt;"><ph id="1" equiv="INTERPOLATION" disp="{{ billingEmail }}"/></pc>. </source>
+      </segment>
+    </unit>
+    <unit id="6168919365016053724">
+      <segment>
+        <source>File storage:</source>
+      </segment>
+    </unit>
+    <unit id="6204819636508367774">
+      <segment>
+        <source>Unlimited team members</source>
+      </segment>
+    </unit>
+    <unit id="6240182255609880044">
+      <segment>
+        <source>Your team slug can only consist of letters, numbers, underscores and/or hyphens.</source>
+      </segment>
+    </unit>
+    <unit id="6560990714812373531">
+      <segment>
+        <source>To create a new team, press the &quot;Create Team&quot; button in the upper right.</source>
+      </segment>
+    </unit>
+    <unit id="1651520185990416775">
+      <segment>
+        <source>Total <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[]&quot; (click)=&quot;openEventInfoDialog()&quot; &gt;" dispEnd="&lt;/a &gt;">events</pc> used in billing period: <ph id="1" equiv="INTERPOLATION" disp="{{ count.total }}"/> </source>
+      </segment>
+    </unit>
+    <unit id="7478140689790892603">
+      <segment>
+        <source>Teams are for managing issue notifications and workflow. View permissions are handled through <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a routerLink=&quot;../members&quot;&gt;" dispEnd="&lt;/a&gt;"> organization membership.</pc></source>
+      </segment>
+    </unit>
+    <unit id="810888510148304696">
+      <segment>
+        <source>Automatic</source>
+      </segment>
+    </unit>
+    <unit id="8120474743695089696">
+      <segment>
+        <source>This organization has a subscription to GlitchTip, but the payment is past due.</source>
+      </segment>
+    </unit>
+    <unit id="9153853260021860021">
+      <segment>
+        <source>If you ever lose access to your codes, you can recover your account with your <pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">backup codes</pc>.</source>
+      </segment>
+    </unit>
+    <unit id="5279770905523465379">
+      <segment>
+        <source>Select a valid time zone</source>
+      </segment>
+    </unit>
+    <unit id="8951128623878467862">
+      <segment>
+        <source>Preferences</source>
+      </segment>
+    </unit>
+    <unit id="4185629687342786413">
+      <segment>
+        <source>The account you&apos;re logged into is already a part of this organization. You might want to <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a (click)=&quot;logout()&quot; href=&quot;javascript:void(0)&quot;&gt;" dispEnd="&lt;/a&gt;">log out</pc>, then create an account for or log into the account that this invite link was intended for.</source>
+      </segment>
+    </unit>
+    <unit id="8433883189750412090">
+      <segment>
+        <source>You have been invited to join<pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;"> <ph id="1" equiv="INTERPOLATION" disp="{{ acceptInfo.orgUser.organization.name }}"/> </pc> so you can keep track of errors.</source>
+      </segment>
+    </unit>
+    <unit id="1581886603273423006">
+      <segment>
+        <source>Account Owner</source>
+      </segment>
+    </unit>
+    <unit id="1740276691614535252">
+      <segment>
+        <source>Gains admin access on all teams as well as the ability to add and remove members.</source>
+      </segment>
+    </unit>
+    <unit id="1922838090212936091">
+      <segment>
+        <source>Admin privileges on any teams of which user is a member. They can create new teams and projects, as well as delete teams and projects they are already members of. Additionally, they can manage memberships of teams that they are members of.</source>
+      </segment>
+    </unit>
+    <unit id="2267387778265004491">
+      <segment>
+        <source>Organization Account Ownership</source>
+      </segment>
+    </unit>
+    <unit id="231679111972850796">
+      <segment>
+        <source>Added</source>
+      </segment>
+    </unit>
+    <unit id="3444805486131364421">
+      <segment>
+        <source>Scopes:</source>
+      </segment>
+    </unit>
+    <unit id="3916787140877704867">
+      <segment>
+        <source>Team(s)</source>
+      </segment>
+    </unit>
+    <unit id="4145496584631696119">
+      <segment>
+        <source>Role</source>
+      </segment>
+    </unit>
+    <unit id="4729000058409517470">
+      <segment>
+        <source>Unrestricted access to the organization, its data, and its settings. Can add, modify, and delete projects and members.</source>
+      </segment>
+    </unit>
+    <unit id="4768749765465246664">
+      <segment>
+        <source>Email</source>
+      </segment>
+    </unit>
+    <unit id="5909691734964157223">
+      <segment>
+        <source> This member is the organization account owner and has access to the organization&apos;s GlitchTip subscription settings. </source>
+      </segment>
+    </unit>
+    <unit id="6146979090477797496">
+      <segment>
+        <source> The account owner has access to the organization&apos;s GlitchTip subscription settings. If you are the current account owner or have an owner role, you may transfer ownership to this member. </source>
+      </segment>
+    </unit>
+    <unit id="6895800612787584413">
+      <segment>
+        <source>Members can view and act on events, as well as view most other data within the organization.</source>
+      </segment>
+    </unit>
+    <unit id="6921336596257236722">
+      <segment>
+        <source>New version available. Load New Version?</source>
+      </segment>
+    </unit>
+    <unit id="9208909205064884220">
+      <segment>
+        <source>This user isn&apos;t on any teams.</source>
+      </segment>
+    </unit>
+    <unit id="1312433286376470649">
+      <segment>
+        <source>Site URL</source>
+      </segment>
+    </unit>
+    <unit id="1398754421418372278">
+      <segment>
+        <source>Monitor Name</source>
+      </segment>
+    </unit>
+    <unit id="1418979860895365047">
+      <segment>
+        <source> GlitchTip will &quot;ping&quot; the specified URL using an HTTP HEAD request with no payload. </source>
+      </segment>
+    </unit>
+    <unit id="6910864712437104509">
+      <segment>
+        <source>Uptime email notifications are sent to the team assigned to the associated project.</source>
+      </segment>
+    </unit>
+    <unit id="3255939212816298806">
+      <segment>
+        <source>Enter a status code number </source>
+      </segment>
+    </unit>
+    <unit id="3335933778689867657">
+      <segment>
+        <source>Expected Status</source>
+      </segment>
+    </unit>
+    <unit id="3724940541438351467">
+      <segment>
+        <source>Time in seconds GlitchTip will wait for a response from your app. Defaults to 20 seconds.</source>
+      </segment>
+    </unit>
+    <unit id="3802089991568977129">
+      <segment>
+        <source>Interval (seconds)</source>
+      </segment>
+    </unit>
+    <unit id="2168400886938239735">
+      <segment>
+        <source>Enter an integer.</source>
+      </segment>
+    </unit>
+    <unit id="8658719885168030493">
+      <segment>
+        <source>Must be 60 or higher.</source>
+      </segment>
+    </unit>
+    <unit id="4970236371480835408">
+      <segment>
+        <source> GlitchTip will send an HTTP POST request to the specified URL. If the expected response is not received, the site will be marked as Down. </source>
+      </segment>
+    </unit>
+    <unit id="5049957255900483968">
+      <segment>
+        <source>Enter an integer between 1 and 60.</source>
+      </segment>
+    </unit>
+    <unit id="5956316725115867558">
+      <segment>
+        <source>Timeout</source>
+      </segment>
+    </unit>
+    <unit id="7307117116794596244">
+      <segment>
+        <source>Monitor type</source>
+      </segment>
+    </unit>
+    <unit id="7679156164610222177">
+      <segment>
+        <source> GlitchTip will send an HTTP GET request to the specified URL. If the expected response is not received, the site will be marked as Down. </source>
+      </segment>
+    </unit>
+    <unit id="8098214202153793679">
+      <segment>
+        <source> The quantity needs to be greater than or equal to 100. </source>
+      </segment>
+    </unit>
+    <unit id="8190727095346221313">
+      <segment>
+        <source>Associated Project</source>
+      </segment>
+    </unit>
+    <unit id="2118666744161927873">
+      <segment>
+        <source>GlitchTip will await requests from your site to ensure it is active. If it doesn&apos;t receive the request, the site will be marked as Down.</source>
+      </segment>
+    </unit>
+    <unit id="1107238992361664159">
+      <segment>
+        <source>Enter a valid URL with protocol (ex. https://example.com)</source>
+      </segment>
+    </unit>
+    <unit id="1221596867309460035">
+      <segment>
+        <source>New Password</source>
+      </segment>
+    </unit>
+    <unit id="1846542227840529109">
+      <segment>
+        <source>Current Password</source>
+      </segment>
+    </unit>
+    <unit id="1944173575291952346">
+      <segment>
+        <source>Supports Slack, Microsoft Teams, Rocket.Chat, and more</source>
+      </segment>
+    </unit>
+    <unit id="2118438278570914652">
+      <segment>
+        <source>Expected Response Body</source>
+      </segment>
+    </unit>
+    <unit id="2172491100431008170">
+      <segment>
+        <source>Your passwords don&apos;t match</source>
+      </segment>
+    </unit>
+    <unit id="3221948488301825969">
+      <segment>
+        <source>Issue not found</source>
+      </segment>
+    </unit>
+    <unit id="3811407979880504315">
+      <segment>
+        <source>System Info</source>
+      </segment>
+    </unit>
+    <unit id="4052010728262248283">
+      <segment>
+        <source>Backend configuration</source>
+      </segment>
+    </unit>
+    <unit id="451200972202964504">
+      <segment>
+        <source>Show all checks</source>
+      </segment>
+    </unit>
+    <unit id="4591000937604211863">
+      <segment>
+        <source>500 Server Error</source>
+      </segment>
+    </unit>
+    <unit id="4841998368096526659">
+      <segment>
+        <source>View all issues in <ph id="0" equiv="INTERPOLATION" disp="{{ organization.name }}"/></source>
+      </segment>
+    </unit>
+    <unit id="4895326106573044490">
+      <segment>
+        <source>Documentation</source>
+      </segment>
+    </unit>
+    <unit id="5478056060243048045">
+      <segment>
+        <source>This may be because the URL is pointing to an issue that doesn&apos;t exist or was deleted.</source>
+      </segment>
+    </unit>
+    <unit id="7276967761111129879">
+      <segment>
+        <source>URL may not be more than <ph id="0" equiv="INTERPOLATION" disp="{{ formUrl.errors.maxlength.requiredLength }}"/> characters</source>
+      </segment>
+    </unit>
+    <unit id="6164834099500157112">
+      <segment>
+        <source>Unable to log in with provided credentials.</source>
+      </segment>
+    </unit>
+    <unit id="6306074632981769484">
+      <segment>
+        <source>It&apos;s also possible that this issue was reported to a project that you are not able to access.</source>
+      </segment>
+    </unit>
+    <unit id="6582573664846559511">
+      <segment>
+        <source>Change Password</source>
+      </segment>
+    </unit>
+    <unit id="6735249038962761269">
+      <segment>
+        <source>Show incidents</source>
+      </segment>
+    </unit>
+    <unit id="6796247291544680076">
+      <segment>
+        <source>Type in your new password</source>
+      </segment>
+    </unit>
+    <unit id="7135122203377475337">
+      <segment>
+        <source>Use only letters, numbers, underscores and/or hyphens</source>
+      </segment>
+    </unit>
+    <unit id="7994060186123483149">
+      <segment>
+        <source>Your new password has been saved.</source>
+      </segment>
+    </unit>
+    <unit id="7464216857382824881">
+      <segment>
+        <source>GlitchTip will check to make sure the port at the specified URL is accessible.</source>
+      </segment>
+    </unit>
+    <unit id="830996102207481987">
+      <segment>
+        <source>If string isn&apos;t found in response body, the monitor will report as down</source>
+      </segment>
+    </unit>
+    <unit id="8316175416734096923">
+      <segment>
+        <source> Uptime check interval: <ph id="0" equiv="INTERPOLATION" disp="{{ monitor.interval | number }}"/> seconds </source>
+      </segment>
+    </unit>
+    <unit id="8483269670688589838">
+      <segment>
+        <source>Your current is required to change your password</source>
+      </segment>
+    </unit>
+    <unit id="8797007391593964199">
+      <segment>
+        <source>Enter a host name and port (ex. example.com:80)</source>
+      </segment>
+    </unit>
+    <unit id="8916408973006340984">
+      <segment>
+        <source>GlitchTip <ph id="0" equiv="INTERPOLATION" disp="{{ version() }}"/></source>
+      </segment>
+    </unit>
+    <unit id="911145468998987410">
+      <segment>
+        <source>Confirm New Password</source>
+      </segment>
+    </unit>
+    <unit id="960665565485640516">
+      <segment>
+        <source>Something went wrong</source>
+      </segment>
+    </unit>
+    <unit id="1017066204420437090">
+      <segment>
+        <source>Set New Password</source>
+      </segment>
+    </unit>
+    <unit id="1431416938026210429">
+      <segment>
+        <source>Password</source>
+      </segment>
+    </unit>
+    <unit id="1538995058317034003">
+      <segment>
+        <source>Device activation was unsuccessful.</source>
+      </segment>
+    </unit>
+    <unit id="187187500641108332">
+      <segment>
+        <source>
+          <ph id="0" equiv="INTERPOLATION" disp="{{ backupCode?.errors?.serverError }}"/>
+        </source>
+      </segment>
+    </unit>
+    <unit id="2167241020391967059">
+      <segment>
+        <source>Download or copy a list of backup codes. If you ever lose your phone, each of these recovery codes can be used one time to regain access to your account. <pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">Print them out or save them someplace safe.</pc></source>
+      </segment>
+    </unit>
+    <unit id="2617201451708142937">
+      <segment>
+        <source>Enter one of the backup codes to confirm that you have saved them:</source>
+      </segment>
+    </unit>
+    <unit id="305233477996347721">
+      <segment>
+        <source>Code must be 8 digits</source>
+      </segment>
+    </unit>
+    <unit id="3099741642167775297">
+      <segment>
+        <source>Download</source>
+      </segment>
+    </unit>
+    <unit id="3677197196283475273">
+      <segment>
+        <source>You have successfully disconnected your social auth account</source>
+      </segment>
+    </unit>
+    <unit id="3782563238994348625">
+      <segment>
+        <source>Confirm password</source>
+      </segment>
+    </unit>
+    <unit id="4323470180912194028">
+      <segment>
+        <source>Copy</source>
+      </segment>
+    </unit>
+    <unit id="4622788799334711424">
+      <segment>
+        <source>If you have lost your backup codes you can generate new ones, invalidating all previous codes. <pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">Print out these new codes or save them someplace safe.</pc></source>
+      </segment>
+    </unit>
+    <unit id="4663796819689603423">
+      <segment>
+        <source>Regenerate backup codes</source>
+      </segment>
+    </unit>
+    <unit id="6359908116364527838">
+      <segment>
+        <source>Project Alerts</source>
+      </segment>
+    </unit>
+    <unit id="6373761293150491680">
+      <segment>
+        <source>Return to initial login page</source>
+      </segment>
+    </unit>
+    <unit id="6430072333383968514">
+      <segment>
+        <source>Regenerate codes</source>
+      </segment>
+    </unit>
+    <unit id="7308123627289097296">
+      <segment>
+        <source>Unknown problem using Social Authentication</source>
+      </segment>
+    </unit>
+    <unit id="7704379049286251361">
+      <segment>
+        <source>Your current password is incorrect.</source>
+      </segment>
+    </unit>
+    <unit id="8434191191397593923">
+      <segment>
+        <source>Your account has no password set up.</source>
+      </segment>
+    </unit>
+    <unit id="8489391551429309663">
+      <segment>
+        <source>Your security key has been registered.</source>
+      </segment>
+    </unit>
+    <unit id="9053544882734151327">
+      <segment>
+        <source>Provide a name for your device to complete registration.</source>
+      </segment>
+    </unit>
+    <unit id="2045774391739296209">
+      <segment>
+        <source>Timespan</source>
+      </segment>
+    </unit>
+    <unit id="2342149656142683501">
+      <segment>
+        <source>If an uptime monitor is triggered.</source>
+      </segment>
+    </unit>
+    <unit id="2582356557395842562">
+      <segment>
+        <source>Enter an integer greater than 0.</source>
+      </segment>
+    </unit>
+    <unit id="3084686770297988088">
+      <segment>
+        <source>Return to login</source>
+      </segment>
+    </unit>
+    <unit id="3595833482001508466">
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="{{ projectFormQuantity.value | i18nPlural: timesI18nMapping }}"/> in</source>
+      </segment>
+    </unit>
+    <unit id="3695251475145999588">
+      <segment>
+        <source>time</source>
+      </segment>
+    </unit>
+    <unit id="5405071297219936776">
+      <segment>
+        <source>minute</source>
+      </segment>
+    </unit>
+    <unit id="5718859187781924335">
+      <segment>
+        <source>in <ph id="0" equiv="INTERPOLATION" disp="{{ projectFormTimespan.value | i18nPlural: minutesI18nMapping }}"/>, send an alert.</source>
+      </segment>
+    </unit>
+    <unit id="5966633327405012171">
+      <segment>
+        <source> If an <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;tooltip&quot; matTooltip=&quot;An event is every occurrence of the same error (aka: issue) in your application.&quot; &gt;" dispEnd="&lt;/span &gt;">event</pc> happens</source>
+      </segment>
+    </unit>
+    <unit id="7074388989229825051">
+      <segment>
+        <source>times</source>
+      </segment>
+    </unit>
+    <unit id="8222747160094057941">
+      <segment>
+        <source>If you have an account with GlitchTip, an email has been sent to the email address you provided.</source>
+      </segment>
+    </unit>
+    <unit id="982745398054129955">
+      <segment>
+        <source>minutes</source>
+      </segment>
+    </unit>
+    <unit id="1232610167578746045">
+      <segment>
+        <source>Unable to connect to @sentry/wizard</source>
+      </segment>
+    </unit>
+    <unit id="1277316148999198227">
+      <segment>
+        <source>Unmerge</source>
+      </segment>
+    </unit>
+    <unit id="1417995330725483974">
+      <segment>
+        <source>The name of your organization has been updated to <ph id="0" equiv="PH" disp="data.name"/></source>
+      </segment>
+    </unit>
+    <unit id="1554838717931748985">
+      <segment>
+        <source>Merged</source>
+      </segment>
+    </unit>
+    <unit id="1655069838040430737">
+      <segment>
+        <source>Event Details</source>
+      </segment>
+    </unit>
+    <unit id="168526128992551302">
+      <segment>
+        <source>You have been added to <ph id="0" equiv="PH" disp="data.orgUser.organization.name"/>.</source>
+      </segment>
+    </unit>
+    <unit id="1874370182429640371">
+      <segment>
+        <source> There was an error. Try again later. </source>
+      </segment>
+    </unit>
+    <unit id="2047102130540283011">
+      <segment>
+        <source> This e-mail confirmation link expired or is invalid. Please issue a new e-mail confirmation request. </source>
+      </segment>
+    </unit>
+    <unit id="2110065830957672842">
+      <segment>
+        <source>Are you sure you want to remove <ph id="0" equiv="PH" disp="name"/>? You will permanently lose all projects and teams associated with it.</source>
+      </segment>
+    </unit>
+    <unit id="21729799810425671">
+      <segment>
+        <source>No title found for this merged issue</source>
+      </segment>
+    </unit>
+    <unit id="2323166636157815284">
+      <segment>
+        <source>Successfully removed <ph id="0" equiv="PH" disp="member.email"/> from organization</source>
+      </segment>
+    </unit>
+    <unit id="2347464874722958215">
+      <segment>
+        <source>There was an error when attempting to load issues.</source>
+      </segment>
+    </unit>
+    <unit id="2420295336574381180">
+      <segment>
+        <source>Confirming email…</source>
+      </segment>
+    </unit>
+    <unit id="2499193577100705366">
+      <segment>
+        <source>You have left <ph id="0" equiv="PH" disp="data.slug"/></source>
+      </segment>
+    </unit>
+    <unit id="2764329308967524576">
+      <segment>
+        <source>Error, unable to update issue</source>
+      </segment>
+    </unit>
+    <unit id="2815134129784182138">
+      <segment>
+        <source>Something went wrong. Try reloading the page.</source>
+      </segment>
+    </unit>
+    <unit id="3206542606001340679">
+      <segment>
+        <source>Merge</source>
+      </segment>
+    </unit>
+    <unit id="3333500469510040036">
+      <segment>
+        <source>Are you sure you want to delete this authentication token?</source>
+      </segment>
+    </unit>
+    <unit id="339150322539484059">
+      <segment>
+        <source>Finalizing your login</source>
+      </segment>
+    </unit>
+    <unit id="344300948538394896">
+      <segment>
+        <source>Your email address has been confirmed.</source>
+      </segment>
+    </unit>
+    <unit id="3685661039544326124">
+      <segment>
+        <source><ph id="0" equiv="PH" disp="email"/> has been removed from your account.</source>
+      </segment>
+    </unit>
+    <unit id="3807699453257291879">
+      <segment>
+        <source>Comments</source>
+      </segment>
+    </unit>
+    <unit id="3869317699802216328">
+      <segment>
+        <source>Unable to unmerge selected hashes.</source>
+      </segment>
+    </unit>
+    <unit id="3944070578105872601">
+      <segment>
+        <source>There was an error. Please try again.</source>
+      </segment>
+    </unit>
+    <unit id="3976301030203826563">
+      <segment>
+        <source>You lack permission to create a new project</source>
+      </segment>
+    </unit>
+    <unit id="4000360891880872696">
+      <segment>
+        <source>You joined <ph id="0" equiv="PH" disp="data.slug"/></source>
+      </segment>
+    </unit>
+    <unit id="4461430420011995077">
+      <segment>
+        <source>Delete Auth Token</source>
+      </segment>
+    </unit>
+    <unit id="45527735672619032">
+      <segment>
+        <source>Successfully transferred organization account ownership to <ph id="0" equiv="PH" disp="data.email"/>.</source>
+      </segment>
+    </unit>
+    <unit id="4814285799071780083">
+      <segment>
+        <source>Remove</source>
+      </segment>
+    </unit>
+    <unit id="4935617373107665748">
+      <segment>
+        <source><ph id="0" equiv="PH" disp="member.email"/> has been added to #<ph id="1" equiv="PH_1" disp="team.slug"/></source>
+      </segment>
+    </unit>
+    <unit id="525202038336328287">
+      <segment>
+        <source>Issue <ph id="0" equiv="PH" disp="id"/> has been deleted.</source>
+      </segment>
+    </unit>
+    <unit id="5521710262088082373">
+      <segment>
+        <source>Successfully connected to @sentry/wizard.</source>
+      </segment>
+    </unit>
+    <unit id="5963361173550459881">
+      <segment>
+        <source> There was an error deleting your token, please try again. </source>
+      </segment>
+    </unit>
+    <unit id="5974237347502898380">
+      <segment>
+        <source>Email invites have been sent to the addresses you provided.</source>
+      </segment>
+    </unit>
+    <unit id="6193408969997737484">
+      <segment>
+        <source>There was an error loading your alerts. Try refreshing the page.</source>
+      </segment>
+    </unit>
+    <unit id="6270991639782521904">
+      <segment>
+        <source>There was an error deleting this comment. Please try again.</source>
+      </segment>
+    </unit>
+    <unit id="627180059350047308">
+      <segment>
+        <source>Error attempting to remove <ph id="0" equiv="PH" disp="member.email"/> from organization</source>
+      </segment>
+    </unit>
+    <unit id="6318415796179463435">
+      <segment>
+        <source>Merge issues</source>
+      </segment>
+    </unit>
+    <unit id="6566431624195050143">
+      <segment>
+        <source>Only users with a role of manager or above can update organizations.</source>
+      </segment>
+    </unit>
+    <unit id="6776045478354313726">
+      <segment>
+        <source>Successfully updated <ph id="0" equiv="PH" disp="data.email"/>&apos;s role to <ph id="1" equiv="PH_1" disp="data.roleName"/></source>
+      </segment>
+    </unit>
+    <unit id="689538422335046890">
+      <segment>
+        <source>User Reports</source>
+      </segment>
+    </unit>
+    <unit id="7022070615528435141">
+      <segment>
+        <source>Delete</source>
+      </segment>
+    </unit>
+    <unit id="712588482447231923">
+      <segment>
+        <source>Your team slug has been changed to #<ph id="0" equiv="PH" disp="data.slug"/></source>
+      </segment>
+    </unit>
+    <unit id="7131676118619088880">
+      <segment>
+        <source>Only users with a role of manager or above can delete organizations.</source>
+      </segment>
+    </unit>
+    <unit id="7167798427319552621">
+      <segment>
+        <source>There was an error retrieving your uptime monitors.</source>
+      </segment>
+    </unit>
+    <unit id="7233514443257462364">
+      <segment>
+        <source>There was a problem. Try again later.</source>
+      </segment>
+    </unit>
+    <unit id="751755198881789855">
+      <segment>
+        <source>Must be less than 32768.</source>
+      </segment>
+    </unit>
+    <unit id="7589121772315788199">
+      <segment>
+        <source>The name of your project has been updated to <ph id="0" equiv="PH" disp="resp.name"/></source>
+      </segment>
+    </unit>
+    <unit id="7753116604377136747">
+      <segment>
+        <source>An email invite has been sent to</source>
+      </segment>
+    </unit>
+    <unit id="781140390035637726">
+      <segment>
+        <source>Connecting to @sentry/wizard…</source>
+      </segment>
+    </unit>
+    <unit id="7823379790822798031">
+      <segment>
+        <source>Too many invitations attempted. Not all invitations were sent. Please try again later</source>
+      </segment>
+    </unit>
+    <unit id="7828159368784233084">
+      <segment>
+        <source>Unmerged seleced hashes.</source>
+      </segment>
+    </unit>
+    <unit id="7831613273502162805">
+      <segment>
+        <source>Too many invitations attempted. Please try again later.</source>
+      </segment>
+    </unit>
+    <unit id="806152040251876311">
+      <segment>
+        <source>Success: Your recipient has been deleted</source>
+      </segment>
+    </unit>
+    <unit id="8396934914861741559">
+      <segment>
+        <source> This invitation link expired or is invalid. Please issue a new invitation request. </source>
+      </segment>
+    </unit>
+    <unit id="8455768552389044425">
+      <segment>
+        <source>You do not have permission to create a team</source>
+      </segment>
+    </unit>
+    <unit id="855933412451231239">
+      <segment>
+        <source>Comments </source>
+      </segment>
+    </unit>
+    <unit id="8592656378036261137">
+      <segment>
+        <source>Your project has been sucessfully deleted</source>
+      </segment>
+    </unit>
+    <unit id="8781927759674212057">
+      <segment>
+        <source><ph id="0" equiv="PH" disp="memberEmail"/> has been removed from #<ph id="1" equiv="PH_1" disp="team.slug"/></source>
+      </segment>
+    </unit>
+    <unit id="8848756484835270621">
+      <segment>
+        <source> There was an error, probably because you tried to join an organization that you&apos;re already a part of. </source>
+      </segment>
+    </unit>
+    <unit id="8913962995110224982">
+      <segment>
+        <source>Remove organization</source>
+      </segment>
+    </unit>
+    <unit id="8983558994144621668">
+      <segment>
+        <source><ph id="0" equiv="PH" disp="email"/> is now your primary email address.</source>
+      </segment>
+    </unit>
+    <unit id="9058835702501543425">
+      <segment>
+        <source>This action will merge your selected issues into a single issue.</source>
+      </segment>
+    </unit>
+    <unit id="917481646578897614">
+      <segment>
+        <source><ph id="0" equiv="PH" disp="data.name"/> has been created</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/project-card/empty-projects/empty-projects.component.scss"],
+  "sourcesContent": ["@use \"variables\" as vars;\n\n.empty-state-card {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  text-align: center;\n\n  h6 {\n    margin: 0;\n  }\n}\n\n.project-card {\n  @media screen and (max-width: vars.$tablet - 1) {\n    display: none;\n  }\n}\n"],
+  "mappings": "AAEA,CAAA,iBACE,QAAA,KACA,eAAA,OACA,YAAA,OACA,gBAAA,OACA,WAAA,OAEA,CAPF,iBAOE,GAPF,OAQI,EAKF,OAAA,YAAA,UAAA,OADF,CAAA,aAEI,QAAA",
+  "names": []
+}

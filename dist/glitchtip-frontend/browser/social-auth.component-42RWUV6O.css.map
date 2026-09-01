@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/profile/social-auth/social-auth.component.scss"],
+  "sourcesContent": ["@use \"variables\" as vars;\n\nmat-card-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: wrap;\n\n  &::ng-deep .mat-card-header-text {\n    margin-left: 0;\n  }\n\n  mat-form-field {\n    margin-top: -5px;\n\n    @media (max-width: vars.$small - 1) {\n      width: 100%;\n    }\n  }\n}\n\n.socialaccount-list-wrapper {\n  mat-divider {\n    margin-top: 12px;\n  }\n}\n\n.socialaccount-wrapper {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap;\n\n  button {\n    width: fit-content;\n    margin: 12px 16px 0 0;\n  }\n\n  .email {\n    margin-top: 12px;\n    height: fit-content;\n  }\n}\n"],
+  "mappings": "AAEA,gBACE,QAAA,KACA,gBAAA,cACA,YAAA,OACA,UAAA,KAEA,eAAA,UAAA,CAAA,qBACE,YAAA,EAGF,gBAAA,eACE,WAAA,KAEA,OAAA,UAAA,OAHF,gBAAA,eAII,MAAA,MAMJ,CAAA,2BAAA,YACE,WAAA,KAIJ,CAAA,sBACE,QAAA,KACA,YAAA,OACA,UAAA,KAEA,CALF,sBAKE,OACE,MAAA,YA/BJ,OAgCI,KAAA,KAAA,EAAA,EAGF,CAVF,sBAUE,CAAA,MACE,WAAA,KACA,OAAA",
+  "names": []
+}

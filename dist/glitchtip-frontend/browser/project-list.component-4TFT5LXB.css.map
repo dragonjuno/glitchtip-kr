@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/project-list/project-list.component.scss"],
+  "sourcesContent": ["@use \"variables\" as vars;\n\n.org-projects-section {\n  margin-bottom: 70px;\n}\n\n.projects-section-header {\n  flex-wrap: wrap;\n\n  @media screen and (max-width: vars.$small - 1) {\n    flex-direction: column;\n    align-items: flex-start;\n  }\n\n  h2 {\n    margin-right: 16px;\n    margin-bottom: 10px;\n  }\n}\n\n.new-project-button {\n  max-width: 100%;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n"],
+  "mappings": "AAEA,CAAA,qBACE,cAAA,KAGF,CAAA,wBACE,UAAA,KAEA,OAAA,YAAA,UAAA,OAHF,CAAA,wBAII,eAAA,OACA,YAAA,YAGF,CARF,wBAQE,GACE,aAAA,KACA,cAAA,KAIJ,CAAA,mBACE,UAAA,KACA,SAAA,OACA,cAAA",
+  "names": []
+}

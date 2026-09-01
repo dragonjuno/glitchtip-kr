@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/settings/teams/team-details/team-details.component.scss"],
+  "sourcesContent": ["@use \"@angular/material\" as mat;\n\nnav {\n  border-bottom: 1px solid\n    mat.m2-get-color-from-palette(mat.$m2-gray-palette, 300);\n}\n"],
+  "mappings": "AAEA,IACE,cAAA,IAAA,MAAA",
+  "names": []
+}

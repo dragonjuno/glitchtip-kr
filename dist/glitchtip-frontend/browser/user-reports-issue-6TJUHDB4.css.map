@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/issues/user-reports-issue/user-reports-issue.scss"],
+  "sourcesContent": [".reports {\n  div {\n    padding: 8px 0;\n\n    &:first-of-type {\n      padding-top: 0;\n    }\n\n    &:last-of-type ~ mat-divider {\n      display: none;\n    }\n  }\n}\n\n.name {\n  margin-bottom: 0;\n}\n\n.date {\n  font-size: 0.8em;\n  margin: 0 0 1em;\n}\n\n.nav-arrows {\n  display: flex;\n  justify-content: flex-end;\n}\n"],
+  "mappings": "AACE,CAAA,QAAA,IAAA,QACE,IAAA,EAEA,CAHF,QAGE,GAAA,eACE,YAAA,EAGF,CAPF,QAOE,GAAA,aAAA,CAAA,YACE,QAAA,KAKN,CAAA,KACE,cAAA,EAGF,CAAA,KACE,UAAA,KAlBA,OAmBA,EAAA,EAAA,IAGF,CAAA,WACE,QAAA,KACA,gBAAA",
+  "names": []
+}
