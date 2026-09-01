@@ -6,4 +6,6 @@ COPY dist/glitchtip-frontend/browser/index.html /code/dist/index.html
 COPY dist/glitchtip-frontend/browser/favicon.ico /code/static/favicon.ico
 COPY dist/glitchtip-frontend/browser/*.js /code/static/
 COPY dist/glitchtip-frontend/browser/*.css /code/static/
-COPY dist/glitchtip-frontend/browser/static/ /code/static/
+COPY dist/glitchtip-frontend/browser/assets/ /code/static/assets/
+COPY dist/glitchtip-frontend/browser/media/ /code/static/media/
+COPY dist/glitchtip-frontend/browser/sdk-docs/ /code/static/sdk-docs/
