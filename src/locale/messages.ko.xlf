@@ -100,7 +100,7 @@
     <unit id="4691887509600985309">
       <segment state="translated">
         <source>Members</source>
-        <target>멤버</target>
+        <target>구성원</target>
       </segment>
     </unit>
     <unit id="1399934467160441489">
@@ -244,7 +244,7 @@
     <unit id="4679371106199891013">
       <segment state="initial">
         <source>Ignored</source>
-        <target>무시</target>
+        <target>무시됨</target>
       </segment>
     </unit>
     <unit id="7045123878111147511">
@@ -337,7 +337,7 @@
       </notes>
       <segment state="translated">
         <source>Down</source>
-        <target>다운</target>
+        <target>장애 발생</target>
       </segment>
     </unit>
     <unit id="4355002072406321718">
@@ -358,7 +358,7 @@
       </notes>
       <segment state="translated">
         <source>Up</source>
-        <target>정상</target>
+        <target>정상 가동</target>
       </segment>
     </unit>
     <unit id="5611592591303869712">
@@ -484,7 +484,7 @@
     <unit id="3677937541764740600">
       <segment state="initial">
         <source>6-digit code</source>
-        <target>6자리 코드</target>
+        <target>6자리 인증 코드</target>
       </segment>
     </unit>
     <unit id="5995673810894749629">
@@ -712,7 +712,7 @@
     <unit id="5105557512709552795">
       <segment state="translated">
         <source>Add Member</source>
-        <target>멤버 추가</target>
+        <target>구성원 추가</target>
       </segment>
     </unit>
     <unit id="5363625141068095814">
@@ -910,7 +910,7 @@
     <unit id="3335933778689867657">
       <segment state="translated">
         <source>Expected Status</source>
-        <target>예상 상태</target>
+        <target>예상 HTTP 상태</target>
       </segment>
     </unit>
     <unit id="3724940541438351467">
@@ -1778,7 +1778,7 @@
     <unit id="2669293632677878810">
       <segment state="initial">
         <source>Resolved in</source>
-        <target>Resolved in</target>
+        <target>해결된 릴리스</target>
       </segment>
     </unit>
     <unit id="8945198047207390803">
@@ -1832,13 +1832,13 @@
     <unit id="7370230567811224225">
       <segment state="initial">
         <source>Optional setup</source>
-        <target>Optional setup</target>
+        <target>선택적 설정</target>
       </segment>
     </unit>
     <unit id="21722028680342187">
       <segment state="initial">
         <source>Configuration options</source>
-        <target>Configuration options</target>
+        <target>구성 옵션</target>
       </segment>
     </unit>
     <unit id="3318523364772817208">
@@ -1874,7 +1874,7 @@
     <unit id="883341321910713030">
       <segment state="initial">
         <source>Performance Monitoring</source>
-        <target>Performance Monitoring</target>
+        <target>성능 모니터링</target>
       </segment>
     </unit>
     <unit id="4664874365831932842">
@@ -1898,7 +1898,7 @@
     <unit id="744244165374460871">
       <segment state="initial">
         <source>Source Maps &amp; Debug Symbols</source>
-        <target>Source Maps &amp; Debug Symbols</target>
+        <target>소스 맵 및 디버그 심볼</target>
       </segment>
     </unit>
     <unit id="679502950068478075">
@@ -1910,7 +1910,7 @@
     <unit id="2681991107727126286">
       <segment state="initial">
         <source>AI-Assisted Debugging</source>
-        <target>AI-Assisted Debugging</target>
+        <target>AI 지원 디버깅</target>
       </segment>
     </unit>
     <unit id="3285184083870027983">
@@ -1922,7 +1922,7 @@
     <unit id="217694042940919672">
       <segment state="initial">
         <source>No projects yet</source>
-        <target>No projects yet</target>
+        <target>아직 프로젝트가 없습니다</target>
       </segment>
     </unit>
     <unit id="1002685503248432712">
@@ -1934,19 +1934,19 @@
     <unit id="5376287016044032856">
       <segment state="initial">
         <source>No access</source>
-        <target>No access</target>
+        <target>접근 권한 없음</target>
       </segment>
     </unit>
     <unit id="4166065492158510722">
       <segment state="initial">
         <source>No matching issues</source>
-        <target>No matching issues</target>
+        <target>일치하는 이슈가 없습니다</target>
       </segment>
     </unit>
     <unit id="2559496713819894682">
       <segment state="initial">
         <source>Try adjusting your search, or clear your filters to see everything.</source>
-        <target>검색어를 조정하거나 필터를 지워 모든 항목을 확인해 보세요.</target>
+        <target>Try adjusting your search, or clear your filters to see everything.</target>
       </segment>
     </unit>
     <unit id="6559246822757089203">
@@ -1988,19 +1988,19 @@
     <unit id="3486318045815416322">
       <segment state="initial">
         <source>Mark resolved</source>
-        <target>Mark resolved</target>
+        <target>해결됨으로 표시</target>
       </segment>
     </unit>
     <unit id="4201099783002228618">
       <segment state="initial">
         <source>Mark unresolved</source>
-        <target>Mark unresolved</target>
+        <target>미해결로 표시</target>
       </segment>
     </unit>
     <unit id="326607852595106445">
       <segment state="initial">
         <source>Mark ignored</source>
-        <target>Mark ignored</target>
+        <target>무시됨으로 표시</target>
       </segment>
     </unit>
     <unit id="4029649057038200865">
@@ -2012,13 +2012,13 @@
     <unit id="3733215288982610673">
       <segment state="initial">
         <source>Level</source>
-        <target>Level</target>
+        <target>심각도</target>
       </segment>
     </unit>
     <unit id="7886570921510760899">
       <segment state="initial">
         <source>Tags</source>
-        <target>Tags</target>
+        <target>태그</target>
       </segment>
     </unit>
     <unit id="6192930354402829130">
@@ -2066,7 +2066,7 @@
     <unit id="7188521810884384359">
       <segment state="initial">
         <source>Search syntax help</source>
-        <target>Search syntax help</target>
+        <target>검색 문법 도움말</target>
       </segment>
     </unit>
     <unit id="4032763770452115138">
@@ -2078,13 +2078,13 @@
     <unit id="6425467213960794982">
       <segment state="initial">
         <source>All projects</source>
-        <target>All projects</target>
+        <target>모든 프로젝트</target>
       </segment>
     </unit>
     <unit id="4580988005648117665">
       <segment state="initial">
         <source>Search</source>
-        <target>Search</target>
+        <target>검색</target>
       </segment>
     </unit>
     <unit id="8949368183634013537">
@@ -2096,25 +2096,25 @@
     <unit id="1500099262662584579">
       <segment state="initial">
         <source>Time range:</source>
-        <target>Time range:</target>
+        <target>시간 범위:</target>
       </segment>
     </unit>
     <unit id="4391289919356861627">
       <segment state="initial">
         <source>Apply</source>
-        <target>Apply</target>
+        <target>적용</target>
       </segment>
     </unit>
     <unit id="6234985323744540610">
       <segment state="initial">
         <source>Date range</source>
-        <target>Date range</target>
+        <target>날짜 범위</target>
       </segment>
     </unit>
     <unit id="5495676136158732653">
       <segment state="initial">
         <source>Time range</source>
-        <target>Time range</target>
+        <target>시간 범위</target>
       </segment>
     </unit>
     <unit id="8248908745082706548">
@@ -2126,67 +2126,67 @@
     <unit id="7301620538128979310">
       <segment state="initial">
         <source>All times</source>
-        <target>All times</target>
+        <target>전체 기간</target>
       </segment>
     </unit>
     <unit id="9178360613965745088">
       <segment state="initial">
         <source>Last hour</source>
-        <target>Last hour</target>
+        <target>지난 1시간</target>
       </segment>
     </unit>
     <unit id="9186529157286281693">
       <segment state="initial">
         <source>Last 24 hours</source>
-        <target>Last 24 hours</target>
+        <target>지난 24시간</target>
       </segment>
     </unit>
     <unit id="4873149362496451858">
       <segment state="initial">
         <source>Last 7 days</source>
-        <target>Last 7 days</target>
+        <target>지난 7일</target>
       </segment>
     </unit>
     <unit id="6292286448154259248">
       <segment state="initial">
         <source>Last 14 days</source>
-        <target>Last 14 days</target>
+        <target>지난 14일</target>
       </segment>
     </unit>
     <unit id="2949150997160654358">
       <segment state="initial">
         <source>Last 30 days</source>
-        <target>Last 30 days</target>
+        <target>지난 30일</target>
       </segment>
     </unit>
     <unit id="1214368793285560058">
       <segment state="initial">
         <source>Search logs</source>
-        <target>Search logs</target>
+        <target>로그 검색</target>
       </segment>
     </unit>
     <unit id="2218082343053095278">
       <segment state="initial">
         <source>Service</source>
-        <target>Service</target>
+        <target>서비스</target>
       </segment>
     </unit>
     <unit id="4802437878460003316">
       <segment state="initial">
         <source>No matching logs</source>
-        <target>No matching logs</target>
+        <target>일치하는 로그가 없습니다</target>
       </segment>
     </unit>
     <unit id="3208062810604819243">
       <segment state="initial">
         <source>Try adjusting or clearing your filters.</source>
-        <target>검색어를 조정하거나 필터를 지워 보세요.</target>
+        <target>Try adjusting or clearing your filters.</target>
       </segment>
     </unit>
     <unit id="2387128922474445063">
       <segment state="initial">
         <source>No logs yet</source>
-        <target>No logs yet</target>
+        <target>아직 로그가 없습니다</target>
       </segment>
     </unit>
     <unit id="8043281408144413530">
@@ -2198,7 +2198,7 @@
     <unit id="33149636091572968">
       <segment state="initial">
         <source>Load more</source>
-        <target>Load more</target>
+        <target>더 불러오기</target>
       </segment>
     </unit>
     <unit id="2093702966497728784">
@@ -2216,7 +2216,7 @@
     <unit id="3076687427621376223">
       <segment state="initial">
         <source>Organization</source>
-        <target>Organization</target>
+        <target>조직</target>
       </segment>
     </unit>
     <unit id="2288513108450439427">
@@ -2228,13 +2228,13 @@
     <unit id="1347241542439262355">
       <segment state="initial">
         <source>General settings</source>
-        <target>General settings</target>
+        <target>일반 설정</target>
       </segment>
     </unit>
     <unit id="4776048193435822947">
       <segment state="initial">
         <source>MFA</source>
-        <target>MFA</target>
+        <target>다중 인증</target>
       </segment>
     </unit>
     <unit id="9110363267178274426">
@@ -2288,7 +2288,7 @@
     <unit id="5589145458945303023">
       <segment state="initial">
         <source>No transactions</source>
-        <target>No transactions</target>
+        <target>트랜잭션이 없습니다</target>
       </segment>
     </unit>
     <unit id="953535088200530364">
@@ -2312,7 +2312,7 @@
     <unit id="858351361293679688">
       <segment state="initial">
         <source>No tokens</source>
-        <target>No tokens</target>
+        <target>토큰이 없습니다</target>
       </segment>
     </unit>
     <unit id="7175145836216322796">
@@ -2324,7 +2324,7 @@
     <unit id="2973061628865967914">
       <segment state="initial">
         <source>Backup codes</source>
-        <target>Backup codes</target>
+        <target>복구 코드</target>
       </segment>
     </unit>
     <unit id="1987589372843569754">
@@ -2348,19 +2348,19 @@
     <unit id="353965083777629357">
       <segment state="initial">
         <source>Authenticator app</source>
-        <target>Authenticator app</target>
+        <target>인증 앱</target>
       </segment>
     </unit>
     <unit id="3650236615036812295">
       <segment state="initial">
         <source>An authenticator app is protecting your account.</source>
-        <target>An authenticator app is protecting your account.</target>
+        <target>인증 앱으로 계정이 보호되고 있습니다.</target>
       </segment>
     </unit>
     <unit id="8150927731388569232">
       <segment state="initial">
         <source> Disable </source>
-        <target> Disable </target>
+        <target>비활성화</target>
       </segment>
     </unit>
     <unit id="372253476753871793">
@@ -2372,13 +2372,13 @@
     <unit id="4659537058158752460">
       <segment state="initial">
         <source>Add a second step at login with an authenticator app.</source>
-        <target>Add a second step at login with an authenticator app.</target>
+        <target>인증 앱을 통해 로그인 시 2단계 인증을 추가합니다.</target>
       </segment>
     </unit>
     <unit id="1014900852249024343">
       <segment state="initial">
         <source> Get started </source>
-        <target> Get started </target>
+        <target>시작하기</target>
       </segment>
     </unit>
     <unit id="5206959576487617077">
@@ -2396,7 +2396,7 @@
     <unit id="3971100408152984961">
       <segment state="initial">
         <source> Next </source>
-        <target> Next </target>
+        <target>다음</target>
       </segment>
     </unit>
     <unit id="5653699239734075539">
@@ -2420,7 +2420,7 @@
     <unit id="4948440289765392916">
       <segment state="initial">
         <source>Authenticator setup QR code</source>
-        <target>Authenticator setup QR code</target>
+        <target>인증 앱 설정용 QR 코드</target>
       </segment>
     </unit>
     <unit id="3514149438333724015">
@@ -2432,7 +2432,7 @@
     <unit id="2180291763949669799">
       <segment state="initial">
         <source>Enable</source>
-        <target>Enable</target>
+        <target>활성화</target>
       </segment>
     </unit>
     <unit id="7796789454513080982">
@@ -2444,19 +2444,19 @@
     <unit id="9187855490716817910">
       <segment state="initial">
         <source>Disable</source>
-        <target>Disable</target>
+        <target>비활성화</target>
       </segment>
     </unit>
     <unit id="7103588127254721505">
       <segment state="initial">
         <source>Theme</source>
-        <target>Theme</target>
+        <target>테마</target>
       </segment>
     </unit>
     <unit id="6794398718047270044">
       <segment state="initial">
         <source>No connected accounts</source>
-        <target>No connected accounts</target>
+        <target>연결된 계정이 없습니다</target>
       </segment>
     </unit>
     <unit id="4417619564210882782">
@@ -2486,7 +2486,7 @@
     <unit id="8033508513197634301">
       <segment state="initial">
         <source>No releases</source>
-        <target>No releases</target>
+        <target>릴리스가 없습니다</target>
       </segment>
     </unit>
     <unit id="3154215924252206494">
@@ -2588,7 +2588,7 @@
     <unit id="734906184673613487">
       <segment state="initial">
         <source>No alerts</source>
-        <target>No alerts</target>
+        <target>알림이 없습니다</target>
       </segment>
     </unit>
     <unit id="5633083782376260608">
@@ -2654,7 +2654,7 @@
     <unit id="3902887131210150867">
       <segment state="initial">
         <source>Toggle overage billing</source>
-        <target>Toggle overage billing</target>
+        <target>초과 사용 요금 청구 토글</target>
       </segment>
     </unit>
     <unit id="6952837916620686302">
@@ -2708,13 +2708,13 @@
     <unit id="3620188369327429839">
       <segment state="initial">
         <source> Save </source>
-        <target> Save </target>
+        <target>저장</target>
       </segment>
     </unit>
     <unit id="2330577642930707695">
       <segment state="initial">
         <source> Cancel </source>
-        <target> Cancel </target>
+        <target>취소</target>
       </segment>
     </unit>
     <unit id="4260801227613473914">
@@ -2744,13 +2744,13 @@
     <unit id="6762743264882388498">
       <segment state="initial">
         <source>Monthly</source>
-        <target>Monthly</target>
+        <target>월간</target>
       </segment>
     </unit>
     <unit id="3745223847280240225">
       <segment state="initial">
         <source>Annual</source>
-        <target>Annual</target>
+        <target>연간</target>
       </segment>
     </unit>
     <unit id="2143992992922814172">
@@ -2840,7 +2840,7 @@
     <unit id="1662170432588987648">
       <segment state="initial">
         <source>Last 30 Days</source>
-        <target>Last 30 Days</target>
+        <target>최근 30일</target>
       </segment>
     </unit>
     <unit id="3861559140187372291">
@@ -2858,13 +2858,13 @@
     <unit id="1929039531311944328">
       <segment state="initial">
         <source>Uptime</source>
-        <target>Uptime</target>
+        <target>가동 시간</target>
       </segment>
     </unit>
     <unit id="1480856902951863661">
       <segment state="initial">
         <source>Projected</source>
-        <target>Projected</target>
+        <target>예상</target>
       </segment>
     </unit>
     <unit id="1420343270177022915">
@@ -2882,7 +2882,7 @@
     <unit id="5636312106761697772">
       <segment state="initial">
         <source>Predicted End of Month</source>
-        <target>Predicted End of Month</target>
+        <target>월말 예상치</target>
       </segment>
     </unit>
     <unit id="6556140613153986106">
@@ -2924,13 +2924,13 @@
     <unit id="6095052631454715389">
       <segment state="initial">
         <source>Manage Subscription</source>
-        <target>Manage Subscription</target>
+        <target>구독 관리</target>
       </segment>
     </unit>
     <unit id="3897348120591552265">
       <segment state="initial">
         <source>Manage</source>
-        <target>Manage</target>
+        <target>관리</target>
       </segment>
     </unit>
     <unit id="6099995138616604139">
@@ -3002,13 +3002,13 @@
     <unit id="5370838177584249385">
       <segment state="initial">
         <source>Resolved</source>
-        <target>Resolved</target>
+        <target>해결됨</target>
       </segment>
     </unit>
     <unit id="2974118934038476769">
       <segment state="initial">
         <source>Unresolved</source>
-        <target>Unresolved</target>
+        <target>미해결</target>
       </segment>
     </unit>
     <unit id="6286501917375397305">
@@ -3152,19 +3152,19 @@
     <unit id="2044535834632996695">
       <segment state="initial">
         <source>Add monitor</source>
-        <target>Add monitor</target>
+        <target>모니터 추가</target>
       </segment>
     </unit>
     <unit id="3249513483374643425">
       <segment state="initial">
         <source>Add</source>
-        <target>Add</target>
+        <target>추가</target>
       </segment>
     </unit>
     <unit id="4545186191685636796">
       <segment state="initial">
         <source>No uptime monitors</source>
-        <target>No uptime monitors</target>
+        <target>가동 시간 모니터가 없습니다</target>
       </segment>
     </unit>
     <unit id="1190219267773780159">
