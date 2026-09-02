@@ -19,31 +19,31 @@
         }
       </mat-error>
       <form [formGroup]="form" (ngSubmit)="onSubmit()">
-        <h2>Label</h2>
-        <p>Give your token a name, so you can easily identify it.</p>
+        <h2>이름</h2>
+        <p>토큰을 쉽게 식별할 수 있도록 이름을 지정하세요.</p>
         <mat-form-field appearance="outline">
-          <mat-label>Label</mat-label>
+          <mat-label>이름</mat-label>
           <input matInput type="text" formControlName="label" />
           <mat-error>
             @if (label.errors?.required) {
               <span>Create a label for your auth token</span>
             }
             @if (label.errors?.maxlength) {
-              <span>Label must be 255 characters or less</span>
+              <span>이름은 255자 이하여야 합니다</span>
             }
             @if (label.errors?.serverError) {
               <span>{{ label.errors?.serverError }}</span>
             }
           </mat-error>
         </mat-form-field>
-        <h2>Scopes</h2>
-        <p>Set the kind of access you want this token to have to your app.</p>
+        <h2>권한 범위</h2>
+        <p>이 토큰이 앱에서 사용할 접근 권한을 설정하세요.</p>
         <mat-checkbox
           class="select-all"
           #selectAllCheckbox
           (change)="bulkModifyScopes()"
         >
-          <b>Full Access</b>
+          <b>전체 권한</b>
         </mat-checkbox>
         <ul>
           @for (scope of scopes.controls; track scope; let i = $index) {

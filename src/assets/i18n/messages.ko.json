@@ -322,7 +322,7 @@
   "5376287016044032856": "No access",
   "4166065492158510722": "No matching issues",
   "2559496713819894682": "검색어를 조정하거나 필터를 지워 모든 항목을 확인해 보세요.",
-  "6559246822757089203": "Clear filters",
+  "6559246822757089203": "필터 지우기",
   "5144966841571402100": "The platform you selected doesn't have specific setup instructions yet. Many sentry-compatible SDKs are available as open-source packages — search for a sentry SDK for your language or framework on your package manager.",
   "3746183499642587543": "Your DSN is pre-filled in the setup instructions. Copy it here if you need it for additional environments or tools. The Security Endpoint is used for browser Content Security Policy (CSP) reporting.",
   "8424845532412516589": "Your DSN tells your SDK how to send events to your GlitchTip project. The Security Endpoint is used for browser Content Security Policy (CSP) reporting.",

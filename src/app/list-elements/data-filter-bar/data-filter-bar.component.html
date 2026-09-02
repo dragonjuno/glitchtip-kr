@@ -97,7 +97,7 @@
       @if (environmentForm) {
         <form [formGroup]="environmentForm" class="environment-form">
           <mat-form-field appearance="outline" subscriptSizing="dynamic">
-            <mat-label>Environment</mat-label>
+            <mat-label>환경</mat-label>
             <mat-select
               (selectionChange)="filterByEnvironment.emit($event)"
               formControlName="environment"
