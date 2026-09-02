@@ -47,9 +47,9 @@ const availableLocales = ["en", "fr", "nb", "ko"];
 // Direct macrolanguages to specific ones. Example: Norwegian becomes Bokmål
 const localeMappings: { [key: string]: string } = { no: "nb" };
 
-let locale =
-  availableLocales.find((l) => navigator.language.startsWith(l)) ??
-  availableLocales[0];
+// Korean build: always load the Korean runtime translations regardless of
+// the browser's preferred language.
+let locale = "ko";
 window.document.documentElement.lang = locale;
 
 if (locale in localeMappings) {
