@@ -1,9 +1,8 @@
 @if (initialLoadComplete() && event() === null) {
   <section class="mat-typography">
-    <h2>Event not found</h2>
+    <h2>이벤트를 찾을 수 없습니다</h2>
     <p class="body-text">
-      This may be because the URL is pointing to an event that doesn't exist or
-      was deleted.
+      URL이 존재하지 않거나 삭제된 이벤트를 가리키고 있을 수 있습니다.
     </p>
   </section>
 }
@@ -12,7 +11,7 @@
   <section class="mat-typography">
     <section class="header">
       <div>
-        <h2>Event</h2>
+        <h2>이벤트</h2>
         <p>
           <a>{{ event?.id }}</a>
         </p>
@@ -33,7 +32,7 @@
               $safeNavigationMigration(event?.id) +
               '/json/'
             "
-            >raw JSON</a
+            >원시 JSON</a
           >
           <span class="action-separator" aria-hidden="true">·</span>
           <button
@@ -43,7 +42,7 @@
             (cdkCopyToClipboardCopied)="onCopiedForAI()"
             i18n
           >
-            copy for AI
+            AI용 복사
           </button>
         </p>
       </div>
@@ -53,14 +52,14 @@
           [routerLink]="previousEventUrl() || ''"
           [disabled]="previousEvent() === false"
         >
-          <mat-icon>keyboard_arrow_left</mat-icon> Older
+          <mat-icon>keyboard_arrow_left</mat-icon> 이전 이벤트
         </button>
         <button
           mat-button
           [routerLink]="nextEventUrl() || ''"
           [disabled]="nextEvent() === false"
         >
-          Newer <mat-icon iconPositionEnd>keyboard_arrow_right</mat-icon>
+          다음 이벤트 <mat-icon iconPositionEnd>keyboard_arrow_right</mat-icon>
         </button>
       </nav>
     </section>
@@ -71,7 +70,7 @@
     <mat-divider></mat-divider>
     @if (event?.tags && event.tags.length > 0) {
       <section class="tags">
-        <h2>Tags</h2>
+        <h2>태그</h2>
         <ul class="pseudo-chip-list">
           @for (tag of event.tags; track tag.key) {
             <li class="pseudo-chip">

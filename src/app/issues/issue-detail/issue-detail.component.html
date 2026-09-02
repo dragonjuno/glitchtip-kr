@@ -153,11 +153,11 @@
                 <dd class="body-text">{{ issue?.shortId }}</dd>
               </div>
               <div>
-                <dt class="caption-text">Events</dt>
+                <dt class="caption-text">이벤트</dt>
                 <dd class="body-text">{{ issue?.count }}</dd>
               </div>
               <div>
-                <dt class="caption-text">Level</dt>
+                <dt class="caption-text">수준</dt>
                 <dd class="body-text">{{ issue.level | titlecase }}</dd>
               </div>
               @if (resolvedInRelease(); as release) {
@@ -167,7 +167,7 @@
                 </div>
               }
               <div>
-                <dt class="caption-text">First Seen</dt>
+                <dt class="caption-text">최초 발생</dt>
                 <dd class="body-text">{{ issue.firstSeen | daysAgo }}</dd>
                 <dd class="caption-text">
                   {{
