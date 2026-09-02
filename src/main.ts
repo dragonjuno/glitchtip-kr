@@ -34,6 +34,7 @@ import {
 import { CustomPreloadingStrategy } from "./app/preloadingStrategy";
 import { APP_BASE_HREF } from "@angular/common";
 import { provideAnimationsAsync } from "@angular/platform-browser/animations/async";
+import koTranslations from "./assets/i18n/messages.ko.json";
 
 let snackBarDuration = 4000;
 if (window.Cypress) {
@@ -117,21 +118,7 @@ const bootstrap = () =>
     ],
   }).catch((err) => console.error(err));
 
-if (locale === availableLocales[0]) {
-  bootstrap();
-} else {
-  // fetch resources for runtime translations. this could also point to an API endpoint
-  fetch(`static/assets/i18n/messages.${locale}.json`)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error(`HTTP error ${response.status}`);
-      }
-
-      return response.json();
-    })
-    .then((result) => {
-      loadTranslations(result);
-
-      bootstrap();
-    });
-}
+// Bundle Korean translations directly so deployment paths and static-file
+// caching cannot prevent the UI from being translated.
+loadTranslations(koTranslations);
+bootstrap();
