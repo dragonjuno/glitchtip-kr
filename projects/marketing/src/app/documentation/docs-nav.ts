@@ -38,7 +38,7 @@ export const DOCS_NAV: DocGroup[] = [
       { href: "/sdkdocs", title: "SDK integration" },
       { slug: "performance", title: "Performance monitoring" },
       { slug: "uptime-monitoring", title: "Uptime monitoring" },
-      { slug: "logs", title: "Logs" },
+      { slug: "logs", title: "로그" },
       { slug: "integrations", title: "Integrations" },
       { slug: "mcp", title: "MCP (AI integration)" },
       { slug: "cli", title: "CLI (beta)" },

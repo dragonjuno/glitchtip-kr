@@ -23,7 +23,7 @@ export const routes: Routes = [
     path: "support",
     loadComponent: () =>
       import("./support/support.component").then((m) => m.SupportComponent),
-    title: "Support",
+    title: "지원",
   },
   {
     path: "legal/:slug",

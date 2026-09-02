@@ -1886,7 +1886,7 @@
     <unit id="4804785061014590286">
       <segment state="initial">
         <source>Logs</source>
-        <target>Logs</target>
+        <target>로그</target>
       </segment>
     </unit>
     <unit id="2849436559874800914">
@@ -1946,7 +1946,7 @@
     <unit id="2559496713819894682">
       <segment state="initial">
         <source>Try adjusting your search, or clear your filters to see everything.</source>
-        <target>Try adjusting your search, or clear your filters to see everything.</target>
+        <target>검색어를 조정하거나 필터를 지워 모든 항목을 확인해 보세요.</target>
       </segment>
     </unit>
     <unit id="6559246822757089203">
@@ -2180,7 +2180,7 @@
     <unit id="3208062810604819243">
       <segment state="initial">
         <source>Try adjusting or clearing your filters.</source>
-        <target>Try adjusting or clearing your filters.</target>
+        <target>검색어를 조정하거나 필터를 지워 보세요.</target>
       </segment>
     </unit>
     <unit id="2387128922474445063">
@@ -2222,7 +2222,7 @@
     <unit id="2288513108450439427">
       <segment state="initial">
         <source>Support</source>
-        <target>Support</target>
+        <target>지원</target>
       </segment>
     </unit>
     <unit id="1347241542439262355">

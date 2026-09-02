@@ -102,7 +102,7 @@ export class SupportComponent {
 
   constructor() {
     this.seo.setPageSeo({
-      title: "Support",
+      title: "지원",
       description:
         "Get help with GlitchTip: read the docs, ask the community, or reach our team.",
     });
@@ -139,7 +139,7 @@ export class SupportComponent {
   composeSupportEmail() {
     if (this.contactForm.invalid) return;
     const { licenseKey } = this.contactForm.value;
-    const subject = `Support Request - ${licenseKey}`;
+    const subject = `지원 요청 - ${licenseKey}`;
     const mailto = `mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent(subject)}`;
     window.location.href = mailto;
   }

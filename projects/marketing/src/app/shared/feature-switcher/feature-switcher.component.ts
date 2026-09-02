@@ -52,7 +52,7 @@ export class FeatureSwitcherComponent {
     {
       id: "logs",
       icon: "text_snippet",
-      title: "Logs",
+      title: "로그",
       body: "Search and filter your application logs alongside your errors and performance data. Keep everything in one place for faster debugging.",
       imageSrc: "assets/home/logs@1x.png",
       imageAlt: "Screenshot of GlitchTip Logs",

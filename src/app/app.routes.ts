@@ -98,7 +98,7 @@ export const routes: Routes = [
           {
             path: "logs",
             loadChildren: () => import("./logs/routes"),
-            title: "Logs",
+            title: "로그",
           },
           {
             path: "uptime-monitors",
