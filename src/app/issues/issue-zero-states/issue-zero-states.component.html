@@ -16,7 +16,7 @@
     <ul>
       <li i18n
         ><strong>release</strong>: your application version (e.g.,
-        <code>"1.0.0"</code>). Helps track which releases introduce errors.</li
+        <code>"1.0.0"</code>). 오류를 유발한 릴리스를 추적하는 데 도움이 됩니다.</li
       >
       <li i18n
         ><strong>environment</strong>: the running environment name (e.g.,
@@ -25,10 +25,10 @@
       <li i18n
         ><strong>traces_sample_rate</strong>: sample rate for performance
         transactions (<code>0.0</code> to <code>1.0</code>). Use a low value
-        like <code>0.01</code> (1%) in production to save disk space.</li
+        like <code>0.01</code> 디스크 공간 절약을 위해 운영 환경에서는 (1%) 권장.</li
       >
       <li i18n
-        ><strong>auto_session_tracking</strong>: set to <code>false</code>.
+        ><strong>auto_session_tracking</strong>: 다음으로 설정 <code>false</code>.
         GlitchTip does not support session tracking.</li
       >
     </ul>
@@ -58,7 +58,7 @@
       to upload source maps and debug symbols for readable stack traces in
       production.</p
     >
-    <h3 i18n>AI-Assisted Debugging</h3>
+    <h3 i18n>AI 지원 디버깅</h3>
     <p i18n
       >GlitchTip includes an
       <a target="_blank" href="https://glitchtip.com/documentation/mcp"
@@ -77,7 +77,7 @@
         data-cy="no-projects"
         icon="team_dashboard"
         i18n-title
-        title="No projects yet"
+        title="아직 프로젝트가 없습니다"
         i18n-message
         message="Add a project to start capturing errors."
       />
@@ -86,7 +86,7 @@
       <gt-empty-state
         icon="security"
         i18n-title
-        title="No access"
+        title="액세스 권한 없음"
         [message]="noAccessMessage()"
       />
     }
@@ -94,7 +94,7 @@
       <gt-empty-state
         icon="search"
         i18n-title
-        title="No matching issues"
+        title="일치하는 이슈가 없습니다"
         i18n-message
         message="Try adjusting your search, or clear your filters to see everything."
       >
@@ -122,7 +122,7 @@
               }
             } @else {
               <h2 class="section-header-text" i18n
-                >Connect your project to GlitchTip</h2
+                >프로젝트를 GlitchTip에 연결</h2
               >
               <ng-container [ngTemplateOutlet]="gettingStarted"></ng-container>
               <p data-cy="platform-other-notice" i18n
@@ -136,7 +136,7 @@
         } @else {
           <div class="install-instructions body-text">
             <h2 class="section-header-text" i18n
-              >Connect your project to GlitchTip</h2
+              >프로젝트를 GlitchTip에 연결</h2
             >
             <ng-container [ngTemplateOutlet]="gettingStarted"></ng-container>
             @if (activeProjectSlug(); as projectSlug) {
@@ -183,7 +183,7 @@
               ></gt-copy-input>
               <gt-copy-input
                 [value]="projectKey.dsn.security"
-                placeholder="Security Endpoint"
+                placeholder="보안 엔드포인트"
               ></gt-copy-input>
             </div>
           </div>

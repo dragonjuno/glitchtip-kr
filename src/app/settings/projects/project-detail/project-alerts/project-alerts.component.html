@@ -1,6 +1,6 @@
 <mat-card>
   <mat-card-header class="flex-common">
-    <mat-card-title i18n>Project Alerts</mat-card-title>
+    <mat-card-title i18n>프로젝트 알림</mat-card-title>
     <button
       mat-flat-button
       id="create-new-alert"
@@ -8,7 +8,7 @@
       (click)="openNewAlert()"
       [disabled]="newAlertOpen() === true || !accessProjectWrite()"
       i18n
-      >Create New Alert</button
+      >새 알림 만들기</button
     >
   </mat-card-header>
   <mat-divider></mat-divider>
@@ -19,7 +19,7 @@
       @if (newAlertOpen() === true) {
         <div class="new-alert">
           <div class="alert-header">
-            <h3 i18n>New Alert</h3>
+            <h3 i18n>새 알림</h3>
           </div>
           @if (newAlertError(); as error) {
             <p class="error new-alert-error">
@@ -57,7 +57,7 @@
                         matTooltip="Send an email to team members on this project."
                         matTooltipClass="tt-wrapping"
                         i18n
-                        >Send an email to team members on this project.</span
+                        >이 프로젝트의 팀원들에게 이메일을 보냅니다.</span
                       >
                     </div>
                   }
@@ -107,7 +107,7 @@
                       <button
                         class="recipient-action small-icon-button"
                         mat-icon-button
-                        attr.aria-label="Edit recipient"
+                        attr.aria-label="수신자 수정"
                         (click)="
                           openEditNewRecipientDialog(recipient, recipientIndex)
                         "
@@ -118,7 +118,7 @@
                     <button
                       class="recipient-action small-icon-button"
                       mat-icon-button
-                      attr.aria-label="Delete Alert For {{ recipient.url }}"
+                      attr.aria-label="{{ recipient.url }}의 알림 삭제"
                       (click)="removeNewAlertRecipient(recipient.url)"
                     >
                       <mat-icon>delete</mat-icon>
@@ -130,7 +130,7 @@
           </ul>
           <button mat-stroked-button (click)="openCreateRecipientDialog()">
             <mat-icon>add</mat-icon>
-            <ng-container i18n>Add An Alert Recipient</ng-container>
+            <ng-container i18n>알림 수신자 추가</ng-container>
           </button>
           <div class="new-alert-actions">
             <gt-loading-button
@@ -148,7 +148,7 @@
         <gt-empty-state
           icon="notifications"
           i18n-title
-          title="No alerts"
+          title="알림이 없습니다"
           i18n-message
           message="Create an alert to get notified when this project has new issues."
         />
@@ -282,7 +282,7 @@
                           <button
                             class="recipient-action small-icon-button"
                             mat-icon-button
-                            attr.aria-label="Test recipient"
+                            attr.aria-label="테스트 수신자"
                             matTooltip="Send test notification"
                             [disabled]="testAlertLoading() === recipient.id"
                             (click)="testRecipient(alert.id!, recipient.id!)"
@@ -296,7 +296,7 @@
                           <button
                             class="recipient-action small-icon-button"
                             mat-icon-button
-                            attr.aria-label="Edit recipient"
+                            attr.aria-label="수신자 수정"
                             (click)="openEditRecipientDialog(recipient, alert)"
                           >
                             <mat-icon>edit</mat-icon>
@@ -306,7 +306,7 @@
                           class="recipient-action small-icon-button"
                           id="delete-recipient"
                           mat-icon-button
-                          attr.aria-label="Delete Alert {{ i + 0 }}"
+                          attr.aria-label="알림 {{ i + 0 }} 삭제"
                           (click)="removeAlertRecipient(recipient, alert)"
                         >
                           <mat-icon>delete</mat-icon>

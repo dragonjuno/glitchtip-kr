@@ -19,10 +19,10 @@
       <markdown [data]="cleanedMarkdown()" (ready)="onReady()"></markdown>
     </div>
 
-    <nav class="mkt-pager" aria-label="More posts">
+    <nav class="mkt-pager" aria-label="게시글 더보기">
       @if (newerPost(); as post) {
         <a class="mkt-pager__link is-prev" [routerLink]="[post.route]">
-          <span class="mkt-pager__dir">&#8592; Newer</span>
+          <span class="mkt-pager__dir">&#8592; 최신 글</span>
           <span class="mkt-pager__title">{{ post.title }}</span>
         </a>
       } @else {

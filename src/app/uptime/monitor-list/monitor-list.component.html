@@ -1,7 +1,7 @@
 <gt-top-app-bar>
   <ng-container slot="left">
     <gt-list-title
-      title="Uptime Monitors"
+      title="가동 시간 모니터"
       [searchHits]="$safeNavigationMigration(paginator()?.count)"
     ></gt-list-title>
   </ng-container>
@@ -15,7 +15,7 @@
       [routerLink]="['new']"
     >
       <mat-icon>add</mat-icon>
-      <span class="add-monitor-text-long" i18n>Add monitor</span>
+      <span class="add-monitor-text-long" i18n>모니터 추가</span>
       <span class="add-monitor-text-short" i18n>Add</span>
     </a>
   </ng-container>
@@ -108,7 +108,7 @@
                 <gt-empty-state
                   icon="share_eta"
                   i18n-title
-                  title="No uptime monitors"
+                  title="가동 시간 모니터가 없습니다"
                   i18n-message
                   message="Add a monitor to get alerted when a site or service goes down."
                 />

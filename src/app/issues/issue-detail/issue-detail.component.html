@@ -4,7 +4,7 @@
     @if (organization(); as organization) {
       <mat-card class="auth-form issue-404">
         <mat-card-content>
-          <h1 class="section-header-text" i18n>Issue not found</h1>
+          <h1 class="section-header-text" i18n>이슈를 찾을 수 없음</h1>
           <p class="body-text" i18n
             >This may be because the URL is pointing to an issue that doesn't
             exist or was deleted.</p
@@ -80,7 +80,7 @@
               [routerLinkActiveOptions]="{ exact: true }"
               #details="routerLinkActive"
               i18n
-              >Event Details</a
+              >이벤트 세부정보</a
             >
             <a
               mat-tab-link
@@ -99,7 +99,7 @@
                   matBadgeOverlap="false"
                   class="report-badge"
                   i18n
-                  >User Reports</span
+                  >사용자 보고서</span
                 >
               }
               @if (issue.userReportCount === 0) {
@@ -176,7 +176,7 @@
                 </dd>
               </div>
               <div>
-                <dt class="caption-text">Last Seen</dt>
+                <dt class="caption-text">최근 발생</dt>
                 <dd class="body-text">{{ issue.lastSeen | daysAgo }}</dd>
                 <dd class="caption-text">
                   {{ $safeNavigationMigration(issue?.lastSeen) | date: "long" }}

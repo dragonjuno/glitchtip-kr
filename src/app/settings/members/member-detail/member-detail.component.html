@@ -27,7 +27,7 @@
         @if (member.isOwner) {
           <div class="column">
             <mat-chip color="primary" highlighted="true" i18n
-              >Account Owner</mat-chip
+              >계정 소유자</mat-chip
             >
           </div>
         }
@@ -89,7 +89,7 @@
         </div>
         <div class="role-scopes">
           @if (selectedRoleScopes(); as scopes) {
-            <div class="body-text-strong" i18n>Scopes:</div>
+            <div class="body-text-strong" i18n>범위:</div>
             <div>{{ scopes }}</div>
           }
         </div>
@@ -97,7 +97,7 @@
     </mat-card>
     <mat-card>
       <mat-card-header>
-        <mat-card-title i18n>Organization Account Ownership</mat-card-title>
+        <mat-card-title i18n>조직 계정 소유권</mat-card-title>
       </mat-card-header>
       <mat-divider></mat-divider>
       <mat-card-content>
@@ -134,12 +134,12 @@
     @if (memberTeams(); as memberTeams) {
       <mat-card>
         <mat-card-header>
-          <mat-card-title i18n>Team(s)</mat-card-title>
+          <mat-card-title i18n>팀</mat-card-title>
         </mat-card-header>
         <mat-divider></mat-divider>
         <mat-card-content>
           @if (memberTeams.length === 0) {
-            <p class="center-text" i18n>This user isn't on any teams.</p>
+            <p class="center-text" i18n>이 사용자는 어떤 팀에도 속해 있지 않습니다.</p>
           } @else {
             <mat-list>
               @for (team of memberTeams; track team) {

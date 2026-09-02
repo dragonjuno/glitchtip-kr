@@ -1,12 +1,12 @@
 <div class="margin-set">
-  <h1 class="header-left" i18n>Log in with authenticator app</h1>
+  <h1 class="header-left" i18n>인증 앱으로 로그인</h1>
   <div class="instructions" i18n
     >Enter the code from the authenticator app on your mobile device. If you’ve
     lost your device, you may enter one of your recovery codes.</div
   >
   <form class="contents-left" [formGroup]="form" (ngSubmit)="onSubmit()">
     <mat-form-field class="full-width" appearance="outline">
-      <mat-label i18n>Verification Code</mat-label>
+      <mat-label i18n>인증 코드</mat-label>
       <input #input matInput formControlName="code" />
       @if (code?.invalid) {
         <mat-error>
@@ -14,7 +14,7 @@
             <span i18n>Required</span>
           }
           @if (code?.errors?.minlength || code?.errors?.maxlength) {
-            <span i18n>Code must be of length 6, 8, or 16</span>
+            <span i18n>코드는 6자리, 8자리 또는 16자리여야 합니다</span>
           }
           @for (serverError of code?.errors?.serverError; track serverError) {
             <span>{{ serverError }}</span>
@@ -29,13 +29,13 @@
   @if (hasWebAuthn!()) {
     <div>
       <a [routerLink]="[]" (click)="switchMethod()" i18n
-        >Log in with security key instead</a
+        >보안 키로 대신 로그인</a
       >
     </div>
   }
   <div>
     <a [routerLink]="[]" (click)="restartLogin()" i18n
-      >Return to initial login page</a
+      >초기 로그인 페이지로 돌아가기</a
     >
   </div>
 </div>

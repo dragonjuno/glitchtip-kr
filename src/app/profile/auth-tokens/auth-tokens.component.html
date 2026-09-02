@@ -2,13 +2,13 @@
   <ng-container class="l-body">
     <mat-card>
       <mat-card-header class="flex-space-between">
-        <mat-card-title i18n>Auth Tokens</mat-card-title>
+        <mat-card-title i18n>인증 토큰</mat-card-title>
         <a
           mat-flat-button
           [routerLink]="['/profile', 'auth-tokens', 'new']"
           color="primary"
           i18n
-          >Create New Token</a
+          >새 토큰 만들기</a
         >
       </mat-card-header>
       <mat-divider></mat-divider>
@@ -22,7 +22,7 @@
     </mat-card>
     <mat-card>
       <mat-card-header>
-        <mat-card-title i18n>Your Tokens</mat-card-title>
+        <mat-card-title i18n>내 토큰</mat-card-title>
       </mat-card-header>
       <mat-divider></mat-divider>
       <mat-card-content>
@@ -65,7 +65,7 @@
           <gt-empty-state
             icon="vpn_key"
             i18n-title
-            title="No tokens"
+            title="토큰이 없습니다"
             i18n-message
             message="Create a token to use the GlitchTip API."
           />

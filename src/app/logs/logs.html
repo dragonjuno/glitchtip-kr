@@ -20,7 +20,7 @@
         <input
           matInput
           formControlName="query"
-          placeholder="Search message body..."
+          placeholder="메시지 본문 검색..."
         />
         <button
           mat-icon-button
@@ -53,7 +53,7 @@
         [formControl]="serviceForm.controls.service"
         (selectionChange)="onServiceChange($event)"
       >
-        <mat-option value="">All services</mat-option>
+        <mat-option value="">모든 서비스</mat-option>
         @for (opt of serviceOptions(); track opt.value) {
           <mat-option [value]="opt.value">{{ opt.label }}</mat-option>
         }
@@ -110,7 +110,7 @@
               <gt-empty-state
                 icon="search"
                 i18n-title
-                title="No matching logs"
+                title="일치하는 로그가 없습니다"
                 i18n-message
                 message="Try adjusting or clearing your filters."
               />
@@ -118,7 +118,7 @@
               <gt-empty-state
                 icon="text_snippet"
                 i18n-title
-                title="No logs yet"
+                title="아직 로그가 없습니다"
                 i18n-message
                 message="Configure your SDK to start capturing logs."
               />

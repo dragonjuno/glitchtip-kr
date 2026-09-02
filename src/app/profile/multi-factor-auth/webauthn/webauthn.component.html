@@ -39,7 +39,7 @@
       </span>
     }
     @if (stage() === 2) {
-      <p i18n>Provide a name for your device to complete registration.</p>
+      <p i18n>등록을 완료하려면 기기의 이름을 입력하세요.</p>
       <form [formGroup]="form">
         <mat-form-field appearance="outline">
           <mat-label i18an>Device name</mat-label>
@@ -93,7 +93,7 @@
           <button
             class="trash"
             mat-icon-button
-            attr.aria-label="Delete {{ key.name }}"
+            attr.aria-label="{{ key.name }} 삭제"
             (click)="deleteWebAuthn(key.id)"
           >
             <mat-icon>delete</mat-icon>

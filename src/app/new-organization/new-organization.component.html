@@ -4,9 +4,9 @@
       <mat-card-content>
         <ng-container>
           @if (canCreateOrg()) {
-            <mat-card-title i18n>Create a New Organization</mat-card-title>
+            <mat-card-title i18n>새 조직 만들기</mat-card-title>
             @if (organizationCount() === 0) {
-              <p i18n>This is the first step to get started with GlitchTip.</p>
+              <p i18n>GlitchTip을 시작하기 위한 첫 번째 단계입니다.</p>
             }
             <form
               [formGroup]="form"
@@ -27,7 +27,7 @@
                 />
               </mat-form-field>
               <button id="submit" mat-flat-button color="primary" i18n
-                >Create Organization</button
+                >조직 만들기</button
               >
             </form>
           } @else {

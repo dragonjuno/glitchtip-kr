@@ -2,13 +2,13 @@
   <article class="doc-page__body markdown-container mat-typography">
     <markdown [src]="src()" (ready)="onMarkdownReady()"></markdown>
 
-    <nav class="mkt-pager" aria-label="Documentation pages">
+    <nav class="mkt-pager" aria-label="문서 페이지">
       @if (prevDoc(); as prev) {
         <a
           class="mkt-pager__link is-prev"
           [routerLink]="['/documentation', prev.slug]"
         >
-          <span class="mkt-pager__dir">&#8592; Previous</span>
+          <span class="mkt-pager__dir">&#8592; 이전</span>
           <span class="mkt-pager__title">{{ prev.title }}</span>
         </a>
       } @else {

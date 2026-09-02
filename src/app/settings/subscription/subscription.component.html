@@ -15,7 +15,7 @@
             class="manage-subscription-text-long"
             [style.visibility]="billingPortalLoading() ? 'hidden' : 'visible'"
             i18n
-            >Manage Subscription</span
+            >구독 관리</span
           >
           <span
             class="manage-subscription-text-short"
@@ -81,7 +81,7 @@
               ) {
                 @if (subscription.status === "trialing") {
                   <p class="body-text no-bottom-margin" i18n
-                    >This organization has a trial subscription to GlitchTip.</p
+                    >이 조직은 GlitchTip 체험판 구독을 사용 중입니다.</p
                   >
                 }
                 @if (subscription.status === "past_due") {
@@ -148,7 +148,7 @@
                   [routerLink]="['/', slug, 'settings', 'projects', 'new']"
                   color="primary"
                   i18n
-                  >Create New Project</a
+                  >새 프로젝트 만들기</a
                 >
               }
             </mat-card-content>

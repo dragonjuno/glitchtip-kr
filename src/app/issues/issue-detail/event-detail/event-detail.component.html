@@ -139,7 +139,7 @@
     @if (event.context) {
       <section>
         <mat-divider></mat-divider>
-        <h3>Additional Data</h3>
+        <h3>추가 데이터</h3>
         <dl>
           @for (context of event.context | keyvalue; track context) {
             <gt-entry-data [key]="context.key" [value]="context.value">

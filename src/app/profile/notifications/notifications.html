@@ -20,7 +20,7 @@
             }
             <mat-button-toggle-group
               name="defaultNotifications"
-              aria-label="Default Notifications"
+              aria-label="기본 알림"
             >
               <mat-button-toggle
                 value="onDefault"
@@ -80,7 +80,7 @@
                         <mat-spinner diameter="24"></mat-spinner>
                       }
                       <mat-button-toggle-group
-                        aria-label="`Notifications for ${project}`"
+                        aria-label="`${project}` 알림"
                       >
                         <mat-button-toggle
                           (change)="updateUserAlertSettings(project.id, 1)"

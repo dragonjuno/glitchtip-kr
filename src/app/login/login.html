@@ -22,10 +22,10 @@
             @if (email?.errors) {
               <mat-error>
                 @if (email?.errors?.['required']) {
-                  <span i18n>Your email is required to log in</span>
+                  <span i18n>로그인하려면 이메일이 필요합니다</span>
                 }
                 @if (email?.errors?.['email']) {
-                  <span i18n>Enter a valid email address</span>
+                  <span i18n>유효한 이메일 주소를 입력하세요</span>
                 }
                 @if (email?.errors?.['serverError']) {
                   <span>{{ email?.errors?.['serverError'] }}</span>
@@ -40,11 +40,11 @@
               <mat-error>
                 @if (password?.errors?.['minlength']) {
                   <span i18n
-                    >Your password should be at least 8 characters long</span
+                    >비밀번호는 8자 이상이어야 합니다</span
                   >
                 }
                 @if (password?.errors?.['required']) {
-                  <span i18n>Your password is required to log in</span>
+                  <span i18n>로그인하려면 비밀번호가 필요합니다</span>
                 }
                 @if (password?.errors?.['serverError']) {
                   <span>{{ password?.errors?.['serverError'] }}</span>
@@ -88,12 +88,12 @@
         <div class="sign-up">
           @if (enableUserRegistration() || enableSocialAppsUserRegistration()) {
             <p class="body-text">
-              <ng-container i18n>New to GlitchTip?</ng-container>
-              <a class="auth-link" routerLink="../register" i18n>Sign Up</a>
+              <ng-container i18n>GlitchTip을 처음 사용하시나요?</ng-container>
+              <a class="auth-link" routerLink="../register" i18n>회원가입</a>
             </p>
           }
           <p class="body-text">
-            <a class="auth-link" routerLink="/reset-password" i18n>Reset Password</a>
+            <a class="auth-link" routerLink="/reset-password" i18n>비밀번호 재설정</a>
           </p>
 
           <p class="alternative-instance" markdown>

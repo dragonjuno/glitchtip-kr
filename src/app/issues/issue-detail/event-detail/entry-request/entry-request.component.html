@@ -25,7 +25,7 @@
               #group="matButtonToggleGroup"
               [value]="viewMode()"
               (change)="viewMode.set(group.value)"
-              aria-label="Request Body View"
+              aria-label="요청 본문 보기"
             >
               <mat-button-toggle value="structured"
                 >Structured</mat-button-toggle
@@ -52,7 +52,7 @@
                   [cdkCopyToClipboard]="rawBody()!"
                   (cdkCopyToClipboardCopied)="copy()"
                   matTooltip="Copy JSON to clipboard"
-                  aria-label="Copy JSON to clipboard"
+                  aria-label="JSON을 클립보드에 복사"
                 >
                   <mat-icon>file_copy</mat-icon>
                 </button>

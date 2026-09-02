@@ -1,7 +1,7 @@
 <section class="l-body">
   <mat-card>
     <mat-card-header>
-      <mat-card-title> Add Member to Organization </mat-card-title>
+      <mat-card-title> 조직에 구성원 추가 </mat-card-title>
     </mat-card-header>
     <mat-divider></mat-divider>
     <mat-card-content>
@@ -79,7 +79,7 @@
         <div>
           <h2>Team</h2>
           <mat-form-field appearance="outline">
-            <mat-label>Add Team</mat-label>
+            <mat-label>팀 추가</mat-label>
             <mat-select multiple formControlName="teams" disableOptionCentering>
               @if (organizationTeams().length) {
                 @for (team of organizationTeams(); track team.id) {

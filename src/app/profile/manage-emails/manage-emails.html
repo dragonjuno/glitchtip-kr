@@ -55,7 +55,7 @@
                 data-cy="delete-button"
                 class="medium-icon-button"
                 mat-icon-button
-                aria-label="Remove email address"
+                aria-label="이메일 주소 삭제"
                 (click)="deleteEmail(email.email)"
               >
                 <mat-icon>delete</mat-icon>
@@ -73,7 +73,7 @@
     >
       <div class="add-email-form-ui">
         <mat-form-field appearance="outline">
-          <mat-label>Email Address</mat-label>
+          <mat-label>이메일 주소</mat-label>
           <input matInput type="email" formControlName="email_address" />
           <mat-error>
             @if (

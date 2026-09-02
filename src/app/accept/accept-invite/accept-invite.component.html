@@ -10,9 +10,9 @@
 >
   @if (acceptInfo(); as acceptInfo) {
     <mat-card-content>
-      <mat-card-title i18n>Organization Invite</mat-card-title>
+      <mat-card-title i18n>조직 초대</mat-card-title>
       <p i18n
-        >You have been invited to join<strong>
+        >조직에 초대되었습니다<strong>
           {{ acceptInfo.orgUser.organization.name }}
         </strong>
         so you can keep track of errors.</p
@@ -21,7 +21,7 @@
         <p i18n
           >The account you're logged into is already a part of this
           organization. You might want to
-          <a (click)="logout()" href="javascript:void(0)">log out</a>, then
+          <a (click)="logout()" href="javascript:void(0)">로그아웃</a>, then
           create an account for or log into the account that this invite link
           was intended for.</p
         >
@@ -29,7 +29,7 @@
       @if (isLoggedIn()) {
         @if ((alreadyInOrg()) === false) {
           <button mat-flat-button color="primary" (click)="onSubmit()" i18n
-            >Accept invitation</button
+            >초대 수락</button
           >
         }
       } @else {
@@ -44,14 +44,14 @@
             [routerLink]="['/register']"
             [queryParams]="{ next: nextUrl() }"
             i18n
-            >Create new account</a
+            >새 계정 만들기</a
           >
           <a
             mat-stroked-button
             [routerLink]="['/login']"
             [queryParams]="{ next: nextUrl() }"
             i18n
-            >Log in with existing account</a
+            >기존 계정으로 로그인</a
           >
         </div>
       }

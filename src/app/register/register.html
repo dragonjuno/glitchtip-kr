@@ -17,7 +17,7 @@
                 <span>Your email is required to sign up</span>
               }
               @if (email?.errors?.email) {
-                <span>Enter a valid email address</span>
+                <span>유효한 이메일 주소를 입력하세요</span>
               }
               @if (email?.errors?.serverError) {
                 <span>{{ email?.errors?.serverError }}</span>
@@ -29,10 +29,10 @@
             <input matInput type="password" formControlName="password" />
             <mat-error>
               @if (password?.errors?.minlength) {
-                <span>Your password should be at least 8 characters long</span>
+                <span>비밀번호는 8자 이상이어야 합니다</span>
               }
               @if (password?.errors?.required) {
-                <span>A password is required to sign up</span>
+                <span>회원가입을 위해 비밀번호가 필요합니다</span>
               }
               @if (password?.errors?.serverError) {
                 <span>{{ password?.errors?.serverError }}</span>
@@ -40,21 +40,21 @@
             </mat-error>
           </mat-form-field>
           <mat-form-field class="full-width" appearance="outline">
-            <mat-label i18n>Confirm password</mat-label>
+            <mat-label i18n>비밀번호 확인</mat-label>
             <input
               matInput
               type="password"
-              placeholder="Confirm Password"
+              placeholder="비밀번호 확인"
               formControlName="password2"
               gtInputMatcher="password"
             />
 
             <mat-error>
               @if (password2?.errors?.required) {
-                <span>A password is required to sign up</span>
+                <span>회원가입을 위해 비밀번호가 필요합니다</span>
               }
               @if (password2?.errors?.notEqual) {
-                <span>Your passwords don't match</span>
+                <span>비밀번호가 일치하지 않습니다</span>
               }
               @if (password2?.errors?.serverError) {
                 <span>{{ password2?.errors?.serverError }}</span>
@@ -105,9 +105,9 @@
         </div>
       }
       <p class="body-text sign-up">
-        <ng-container i18n>Already have an account?</ng-container>
+        <ng-container i18n>이미 계정이 있으신가요?</ng-container>
         <br />
-        <a class="auth-link" routerLink="../login" i18n>Log In</a>
+        <a class="auth-link" routerLink="../login" i18n>로그인</a>
         <br />
         <span class="alternative-instance" markdown>{{ instanceName() }}</span>
       </p>

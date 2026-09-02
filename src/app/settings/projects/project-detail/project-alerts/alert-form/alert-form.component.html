@@ -41,7 +41,7 @@
       />
       @if (projectFormQuantity.errors) {
         <mat-error>
-          <span>Enter an integer greater than 0.</span>
+          <span>0보다 큰 정수를 입력하세요.</span>
         </mat-error>
       }
     </mat-form-field>
@@ -63,7 +63,7 @@
       />
       @if (projectFormTimespan.errors) {
         <mat-error>
-          <span i18n>Enter an integer greater than 0.</span>
+          <span i18n>0보다 큰 정수를 입력하세요.</span>
         </mat-error>
       }
     </mat-form-field>
@@ -74,7 +74,7 @@
     <div class="uptime-option" formGroupName="optionsGroup">
       <mat-checkbox data-cy="uptime-check" formControlName="uptime"
         ><span class="body-text" i18n
-          >If an uptime monitor is triggered.</span
+          >가동 시간 모니터가 트리거된 경우.</span
         ></mat-checkbox
       >
     </div>

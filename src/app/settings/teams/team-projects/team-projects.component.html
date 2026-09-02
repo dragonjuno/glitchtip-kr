@@ -8,7 +8,7 @@
       <div>
         @if (userTeamRole() !== "member") {
           <mat-form-field appearance="outline">
-            <mat-label i18n>Add Project</mat-label>
+            <mat-label i18n>프로젝트 추가</mat-label>
             <mat-select
               (selectionChange)="addProject()"
               [formControl]="project"
@@ -18,7 +18,7 @@
                   {{ project.name }}
                 </mat-option>
               } @empty {
-                <mat-option disabled i18n>No projects</mat-option>
+                <mat-option disabled i18n>프로젝트 없음</mat-option>
               }
             </mat-select>
           </mat-form-field>
@@ -28,7 +28,7 @@
     <mat-divider></mat-divider>
     <mat-card-content>
       @if (projectsOnTeam().length === 0) {
-        <p class="center-text" i18n>This team doesn't have any projects</p>
+        <p class="center-text" i18n>이 팀에는 프로젝트가 없습니다</p>
       } @else {
         <ul>
           @if (errors().removeProjectFromTeam) {

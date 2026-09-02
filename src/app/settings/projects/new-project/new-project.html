@@ -50,7 +50,7 @@
                 </mat-select>
                 <mat-error>
                   @if (name?.errors?.required) {
-                    <span>Add a team to this project</span>
+                    <span>이 프로젝트에 팀 추가</span>
                   }
                 </mat-error>
                 <mat-hint>
@@ -62,7 +62,7 @@
             <button
               mat-icon-button
               class="icon-button-shift"
-              aria-label="Add a team"
+              aria-label="팀 추가"
               (click)="openCreateTeamDialog()"
               id="create-team-from-projects"
               matTooltip="Create a new team for this project"

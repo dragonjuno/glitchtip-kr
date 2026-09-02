@@ -1,6 +1,6 @@
 @if (TOTPAuthenticator()) {
   <div>
-    <p class="mat-h2"><strong i18n>Backup codes</strong></p>
+    <p class="mat-h2"><strong i18n>복구 코드 목록</strong></p>
     <p class="mat-h4" i18n>
       Lost your codes? Generate a new set. This invalidates the old one, so save
       the new codes somewhere safe.
@@ -10,7 +10,7 @@
       (click)="startRegenCodes()"
       [disabled]="regenCodes()"
       i18n
-      >Regenerate codes</button
+      >코드 재생성</button
     >
   </div>
 }
@@ -34,7 +34,7 @@
         <form [formGroup]="backupCodeForm">
           <gt-form-error></gt-form-error>
           <mat-form-field appearance="outline">
-            <mat-label>Backup code</mat-label>
+            <mat-label>복구 코드</mat-label>
             <input matInput formControlName="backupCode" />
             @if (backupCode?.invalid) {
               <mat-error>
@@ -44,7 +44,7 @@
                 @if (
                   backupCode?.errors?.minlength || backupCode?.errors?.maxlength
                 ) {
-                  <span i18n>Code must be 8 digits</span>
+                  <span i18n>코드는 8자리여야 합니다</span>
                 }
                 @if (backupCode?.errors?.serverError) {
                   <span i18n>{{ backupCode?.errors?.serverError }}</span>

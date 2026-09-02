@@ -39,7 +39,7 @@
             <span i18n="Uptime check reports down">Down</span>
           }
           @if (monitor.isUp === null) {
-            <span i18n>No data</span>
+            <span i18n>데이터 없음</span>
           }
           @if (monitor.lastChange) {
             {{ monitor.lastChange | timeFor }}
@@ -64,7 +64,7 @@
         @if (responseChartScale(); as scale) {
           <mat-card appearance="outlined">
             <mat-card-header>
-              <mat-card-title i18n>Response Time</mat-card-title>
+              <mat-card-title i18n>응답 시간</mat-card-title>
             </mat-card-header>
             <mat-divider></mat-divider>
             <mat-card-content>
@@ -163,7 +163,7 @@
           </p>
           <gt-copy-input
             [value]="monitor.heartbeatEndpoint"
-            placeholder="Endpoint URL"
+            placeholder="엔드포인트 URL"
           ></gt-copy-input>
         </mat-card-content>
       </mat-card>

@@ -3,7 +3,7 @@
     <mat-card-title i18n>Members</mat-card-title>
     @if (userTeamRole() !== "member") {
       <mat-form-field appearance="outline" data-cy="team-member-select">
-        <mat-label i18n>Add Member</mat-label>
+        <mat-label i18n>구성원 추가</mat-label>
         <mat-select (selectionChange)="addTeamMember()" [formControl]="member">
           @if (filteredAddTeamMembers().length) {
             @for (orgMember of filteredAddTeamMembers(); track orgMember) {
@@ -12,7 +12,7 @@
               </mat-option>
             }
           } @else {
-            <mat-option disabled i18n>No members</mat-option>
+            <mat-option disabled i18n>멤버 없음</mat-option>
           }
         </mat-select>
         @if (addMemberError) {
@@ -24,7 +24,7 @@
   <mat-divider></mat-divider>
   <mat-card-content>
     @if (teamMembers().length === 0) {
-      <p class="center-text" i18n>This team doesn't have any members</p>
+      <p class="center-text" i18n>이 팀에는 멤버가 없습니다</p>
     } @else {
       <ul data-test-list class="member-list">
         @if (removeMemberError) {

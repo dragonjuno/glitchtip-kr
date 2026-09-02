@@ -15,12 +15,12 @@
     <button
       mat-icon-button
       class="preview-toolbar__menu"
-      aria-label="Toggle navigation"
+      aria-label="탐색 메뉴 토글"
       (click)="navOpen.set(!navOpen())"
     >
       <mat-icon>menu</mat-icon>
     </button>
-    <span class="preview-toolbar__title">GlitchTip Component Preview</span>
+    <span class="preview-toolbar__title">GlitchTip 컴포넌트 미리보기</span>
     <nav class="preview-toolbar__sections" aria-label="Section">
       <button
         class="preview-toolbar__section-tab"
@@ -41,7 +41,7 @@
     <mat-button-toggle-group
       [value]="theme()"
       (change)="setTheme($event.value)"
-      aria-label="Color scheme"
+      aria-label="색상 테마"
       hideSingleSelectionIndicator
     >
       <mat-button-toggle value="light" aria-label="Light">
@@ -60,8 +60,8 @@
     <input
       class="preview-nav__filter"
       type="search"
-      placeholder="Filter pages"
-      aria-label="Filter pages"
+      placeholder="페이지 필터링"
+      aria-label="페이지 필터링"
       [value]="navQuery()"
       (input)="navQuery.set($any($event.target).value)"
     />
@@ -106,7 +106,7 @@
     @if (selected(); as entry) {
       <ng-container *ngComponentOutlet="entry.component" />
     } @else {
-      <p>No previews registered.</p>
+      <p>등록된 미리보기가 없습니다.</p>
     }
   </main>
 </div>

@@ -10,7 +10,7 @@
           [routerLink]="['/', activeOrgSlug(), 'settings', 'projects', 'new']"
         >
           <mat-icon>add</mat-icon>
-          <ng-container i18n>Add Project</ng-container>
+          <ng-container i18n>프로젝트 추가</ng-container>
         </a>
       } @else {
         <gt-project-multiselect [queriedProjects]="queriedProjects" />
@@ -60,7 +60,7 @@
             [routerLink]="['/', activeOrgSlug(), 'settings', 'projects', 'new']"
           >
             <mat-icon>add</mat-icon>
-            <ng-container i18n>Add Project</ng-container>
+            <ng-container i18n>프로젝트 추가</ng-container>
           </a>
         } @else {
           @if (isLargeScreen()) {

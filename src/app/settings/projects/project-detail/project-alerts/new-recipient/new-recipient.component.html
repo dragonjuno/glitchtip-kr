@@ -96,7 +96,7 @@
             }
           </mat-form-field>
           <mat-form-field class="full-width" appearance="outline">
-            <mat-label>Bot Email</mat-label>
+            <mat-label>봇 이메일</mat-label>
             <input
               matInput
               type="email"
@@ -105,22 +105,22 @@
             />
             <mat-hint i18n>Found in the bot's settings under "Bots"</mat-hint>
             @if (botEmail.errors?.required) {
-              <mat-error>Bot email is required</mat-error>
+              <mat-error>봇 이메일을 입력해야 합니다</mat-error>
             }
           </mat-form-field>
           <mat-form-field class="full-width" appearance="outline">
-            <mat-label>API Key</mat-label>
+            <mat-label>API 키</mat-label>
             <input
               matInput
               type="password"
               formControlName="apiKey"
-              placeholder="Bot API key"
+              placeholder="봇 API 키"
             />
             <mat-hint i18n
               >The bot's API key, shown when the bot is created</mat-hint
             >
             @if (apiKey.errors?.required) {
-              <mat-error>API key is required</mat-error>
+              <mat-error>API 키를 입력해야 합니다</mat-error>
             }
           </mat-form-field>
           <mat-form-field class="full-width" appearance="outline">
@@ -128,7 +128,7 @@
             <input matInput formControlName="channel" placeholder="general" />
             <mat-hint i18n>The channel to post alerts to</mat-hint>
             @if (channel.errors?.required) {
-              <mat-error>Channel is required</mat-error>
+              <mat-error>채널을 입력해야 합니다</mat-error>
             }
           </mat-form-field>
           <mat-form-field class="full-width" appearance="outline">
@@ -136,7 +136,7 @@
             <input
               matInput
               formControlName="topic"
-              placeholder="GlitchTip Alerts"
+              placeholder="GlitchTip 알림"
             />
             <mat-hint i18n>Messages in a channel are grouped by topic</mat-hint>
           </mat-form-field>

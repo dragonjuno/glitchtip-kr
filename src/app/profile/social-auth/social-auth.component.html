@@ -6,7 +6,7 @@
         @if (socialApps().length) {
           @if (socialApps(); as socialApps) {
             <mat-form-field appearance="outline">
-              <mat-label>Add Account</mat-label>
+              <mat-label>계정 추가</mat-label>
               <mat-select
                 (selectionChange)="addAccount()"
                 [formControl]="account"
@@ -31,7 +31,7 @@
           <gt-empty-state
             icon="account_circle"
             i18n-title
-            title="No connected accounts"
+            title="연결된 계정이 없습니다"
             i18n-message
             message="Connect a social login to sign in with it."
           />

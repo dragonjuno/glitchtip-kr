@@ -22,7 +22,7 @@
     }
     <mat-card>
       <mat-card-header>
-        <mat-card-title i18n>Update Project</mat-card-title>
+        <mat-card-title i18n>프로젝트 업데이트</mat-card-title>
       </mat-card-header>
       <mat-divider></mat-divider>
       <mat-card-content>
@@ -126,7 +126,7 @@
     @for (projectKey of projectKeys() || []; track projectKey) {
       <mat-card>
         <mat-card-header class="vertical-card-header">
-          <mat-card-title i18n>Client Keys (DSN)</mat-card-title>
+          <mat-card-title i18n>클라이언트 키 (DSN)</mat-card-title>
           <p class="caption-text" i18n>
             Data Source Name: The code that connects your project to GlitchTip.
             Install a library into your project, then configure it with the DSN
@@ -141,7 +141,7 @@
           ></gt-copy-input>
           <gt-copy-input
             [value]="projectKey.dsn.security"
-            placeholder="Security Endpoint"
+            placeholder="보안 엔드포인트"
           ></gt-copy-input>
         </mat-card-content>
       </mat-card>
@@ -156,7 +156,7 @@
     ></gt-project-alerts>
     <mat-card>
       <mat-card-header>
-        <mat-card-title i18n>Personal Project Notifications</mat-card-title>
+        <mat-card-title i18n>개인 프로젝트 알림</mat-card-title>
       </mat-card-header>
       <mat-divider></mat-divider>
       <mat-card-content class="remove-content">
@@ -168,14 +168,14 @@
         </div>
         <div>
           <a mat-stroked-button routerLink="/profile/notifications" i18n
-            >Edit Preferences</a
+            >환경설정 수정</a
           >
         </div>
       </mat-card-content>
     </mat-card>
     <mat-card>
       <mat-card-header>
-        <mat-card-title i18n>Delete Project</mat-card-title>
+        <mat-card-title i18n>프로젝트 삭제</mat-card-title>
       </mat-card-header>
       <mat-divider></mat-divider>
       <mat-card-content class="remove-content">

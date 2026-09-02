@@ -1,4 +1,4 @@
-<h1 mat-dialog-title i18n>Create a New Team</h1>
+<h1 mat-dialog-title i18n>새 팀 만들기</h1>
 <form [formGroup]="form" (ngSubmit)="onSubmit()" id="create-team-form">
   <mat-dialog-content class="mat-typography">
     <p class="description" i18n
@@ -15,13 +15,13 @@
       <input matInput gtSlugify formControlName="slug" />
       @if (slug?.errors?.required) {
         <mat-error>
-          <span i18n>Enter a valid slug to create a team</span>
+          <span i18n>팀을 생성하려면 유효한 슬러그를 입력하세요</span>
         </mat-error>
       }
       @if (slug?.errors?.pattern) {
         <mat-error>
           <span i18n
-            >Use only letters, numbers, underscores and/or hyphens</span
+            >문자, 숫자, 밑줄(_) 및/또는 하이픈(-)만 사용하세요</span
           >
         </mat-error>
       }

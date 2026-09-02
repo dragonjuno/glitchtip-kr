@@ -1,11 +1,11 @@
 <mat-card>
   <mat-card-header>
-    <mat-card-title i18n>Authenticator app</mat-card-title>
+    <mat-card-title i18n>인증 앱</mat-card-title>
   </mat-card-header>
   <mat-divider></mat-divider>
   <mat-card-content>
     @if (TOTPAuthenticator()) {
-      <p i18n>An authenticator app is protecting your account.</p>
+      <p i18n>인증 앱으로 계정이 보호되고 있습니다.</p>
       <button mat-stroked-button color="warn" (click)="deactivateTOTP()" i18n>
         Disable
       </button>
@@ -15,7 +15,7 @@
         Verify your email address before setting up two-factor authentication.
       </p>
     } @else if (step() === 1) {
-      <p i18n>Add a second step at login with an authenticator app.</p>
+      <p i18n>인증 앱을 통해 로그인 시 2단계 인증을 추가합니다.</p>
       <button mat-flat-button color="primary" (click)="incrementStep()" i18n>
         Get started
       </button>
@@ -65,7 +65,7 @@
           <div class="totp-scan">
             <canvas
               #canvas
-              aria-label="Authenticator setup QR code"
+              aria-label="인증 앱 설정용 QR 코드"
               i18n-aria-label
             ></canvas>
             @if (totp()?.secret; as secret) {
@@ -78,7 +78,7 @@
           <form [formGroup]="codeForm" (ngSubmit)="enableTOTP()">
             <gt-form-error [errors]="formErrors()"></gt-form-error>
             <mat-form-field appearance="outline">
-              <mat-label i18n>6-digit code</mat-label>
+              <mat-label i18n>6자리 인증 코드</mat-label>
               <input
                 matInput
                 formControlName="code"
@@ -93,7 +93,7 @@
                     <span i18n>Required</span>
                   }
                   @if (code?.errors?.minlength || code?.errors?.maxlength) {
-                    <span i18n>Code must be 6 digits</span>
+                    <span i18n>코드는 6자리여야 합니다</span>
                   }
                   @if (code?.errors?.serverError) {
                     <span>{{ code?.errors?.serverError }}</span>

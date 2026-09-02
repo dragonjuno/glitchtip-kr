@@ -15,7 +15,7 @@
   />
   @if (showLimits()) {
     <gt-summary-card
-      title="Predicted End of Month"
+      title="월말 예상치"
       [value]="predictedTotal()"
       [eventsAllowed]="totalEventsAllowed()"
       [limitThreshold]="100"
@@ -35,7 +35,7 @@
     <mat-card-content>
       <div class="breakdown-header">
         <span class="breakdown-title body-text-strong" i18n>Event Breakdown</span>
-        <button mat-icon-button (click)="openEventInfo()" class="info-button" aria-label="How are events counted?">
+        <button mat-icon-button (click)="openEventInfo()" class="info-button" aria-label="이벤트는 어떻게 집계되나요?">
           <mat-icon>help</mat-icon>
         </button>
       </div>
