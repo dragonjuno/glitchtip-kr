@@ -43,19 +43,10 @@ if (window.Cypress) {
 }
 const serverErrorsRegex = new RegExp(`403 Forbidden|404 OK`, "mi");
 
-// First locale is default, add additional after it
-const availableLocales = ["en", "fr", "nb", "ko"];
-// Direct macrolanguages to specific ones. Example: Norwegian becomes Bokmål
-const localeMappings: { [key: string]: string } = { no: "nb" };
-
 // Korean build: always load the Korean runtime translations regardless of
 // the browser's preferred language.
-let locale = "ko";
+const locale = "ko";
 window.document.documentElement.lang = locale;
-
-if (locale in localeMappings) {
-  locale = localeMappings[locale];
-}
 
 export function baseHrefInterceptor(
   req: HttpRequest<unknown>,
